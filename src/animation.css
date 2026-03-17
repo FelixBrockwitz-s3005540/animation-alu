@@ -1,0 +1,9 @@
+circle {
+  animation: moveCircle 2s linear infinite;
+}
+
+@keyframes moveCircle {
+  0%   { cx: 10; }
+  50%  { cx: 90; }
+  100% { cx: 10; }
+}
