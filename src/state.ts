@@ -1,18 +1,19 @@
+import { toBits } from "./utils";
+
 const state = {
     programCounter: 0,
 
     inputReg: 0,
-    accumulator: 0,
-    mqReg: 0,
-    shiftCounter: 0,
-
-    accuMQ: undefined,
-    shClk: false,
+    ak: 0,
+    mq: 0,
+    sc: 0,
+    aluResult: 0,
 
     invA: false,
     invB: false,
     carryIn: false,
     invC: false,
+
     writeAk: false,
     shAk: false,
     shMQ: false,
@@ -21,12 +22,21 @@ const state = {
     resetAk: false,
     oneMQ0: false,
     resetSC: false,
-    
-    mq0: false,
-    sc0: false,
-    ak0: false,
-    sign: false,
+
     carryOut: false,
+
+    get sign() {
+        return toBits(state.ak, 8)[7];
+    },
+    get ak0() {
+        return state.ak === 0;
+    },
+    get sc0() {
+        return state.sc === 0;
+    },
+    get mq0() {
+        return toBits(state.mq, 8)[0];
+    },
 }
 
 export default state;
