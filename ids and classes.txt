@@ -1,0 +1,36 @@
+id:
+    input-register
+    output-display
+    akku
+    akku-mq
+    mq-register
+    mq-0
+    alu
+    alu-a
+    alu-c
+    input-a
+    input-b
+    carry-in
+    input-c
+    shift-counter
+    shift-counter-count
+    carry-out-line-1
+    carry-out-line-2
+    sh-mq-1
+    sh-mq-2
+    reset-mq
+    1-mq-0
+    sh-ak-1
+    sh-ak-2
+    shl-shr-1
+    shl-shr-2
+    ak-0
+    write-ak
+    reset-ak
+    sign
+    reset-sc
+    sc-clk
+    sc-0
+
+classes:
+    binary-display

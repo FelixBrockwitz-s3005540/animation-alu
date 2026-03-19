@@ -7,205 +7,8 @@
    viewBox="0 0 35.982493 26.458334"
    version="1.1"
    id="svg1"
-   sodipodi:docname="layout.svg"
-   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
-   inkscape:export-filename="layout.plain.svg"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#505050"
-     bordercolor="#ffffff"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="1"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="px"
-     showgrid="false"
-     showguides="false"
-     inkscape:lockguides="false"
-     inkscape:zoom="7.0743244"
-     inkscape:cx="60.288443"
-     inkscape:cy="73.010506"
-     inkscape:window-width="1671"
-     inkscape:window-height="1043"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       id="grid6"
-       units="mm"
-       originx="6.5840572"
-       originy="-0.023386084"
-       spacingx="1"
-       spacingy="1"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="5"
-       enabled="true"
-       visible="false" />
-    <sodipodi:guide
-       position="16.936222,2.2994652"
-       orientation="0,-1"
-       id="guide21"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="26.159096,9.2504494"
-       orientation="1,0"
-       id="guide22"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="15.159096,9.2504494"
-       orientation="1,0"
-       id="guide23"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="13.584056,13.983788"
-       orientation="0,-1"
-       id="guide24"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="10.46739,7.7290957"
-       orientation="1,0"
-       id="guide25"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="6.6693883,7.7290957"
-       orientation="1,0"
-       id="guide30"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="10.46739,7.7290957"
-       orientation="0,-1"
-       id="guide31"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="16.775681,18.364553"
-       orientation="0,-1"
-       id="guide32"
-       inkscape:locked="false" />
-    <inkscape:page
-       x="4.5981191e-11"
-       y="0"
-       width="35.982494"
-       height="26.458334"
-       id="page35"
-       margin="0 0 0 0"
-       bleed="0" />
-    <sodipodi:guide
-       position="32.962076,11.964797"
-       orientation="1,0"
-       id="guide40"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="35.502941,9.9555959"
-       orientation="0,-1"
-       id="guide2"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="18.635752,10.244981"
-       orientation="1,0"
-       id="guide3"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="17.854665,5.5298554"
-       orientation="0,-1"
-       id="guide4"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="28.460256,4.0623787"
-       orientation="1,0"
-       id="guide5"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="32.171022,8.5875849"
-       orientation="1,0"
-       id="guide6"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="31.472662,10.261521"
-       orientation="1,0"
-       id="guide7"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="5.5906768,21.964998"
-       orientation="1,0"
-       id="guide8"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="31.844418,3.7349734"
-       orientation="1,0"
-       id="guide11"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="27.936221,3.299465"
-       orientation="0,-1"
-       id="guide12"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="29.688025,0.025454078"
-       orientation="1,0"
-       id="guide14"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="27.936223,1.8038448"
-       orientation="0,-1"
-       id="guide15"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="24.87191,1.2969741"
-       orientation="1,0"
-       id="guide16"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="4.6485118,0.6129309"
-       orientation="0,-1"
-       id="guide17"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="30.293957,10.724542"
-       orientation="0,-1"
-       id="guide33"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="17.288032,9.2504494"
-       orientation="1,0"
-       id="guide44"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="16.743826,4.6645703"
-       orientation="0,-1"
-       id="guide45"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="30.060831,1.2969741"
-       orientation="1,0"
-       id="guide46"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="29.196917,3.8460574"
-       orientation="0,-1"
-       id="guide47"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="5.2263599,13.97573"
-       orientation="1,0"
-       id="guide51"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="19.351555,16.526508"
-       orientation="1,0"
-       id="guide9"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
   <defs
      id="defs1">
     <marker
@@ -214,12 +17,9 @@
        refX="2"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
        markerWidth="0.15000001"
        markerHeight="0.15000001"
        viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
        preserveAspectRatio="xMidYMid"
        markerUnits="userSpaceOnUse">
       <path
@@ -234,12 +34,9 @@
        refX="0"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
        markerWidth="0.15000001"
        markerHeight="0.15000001"
        viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
        preserveAspectRatio="xMidYMid"
        markerUnits="userSpaceOnUse">
       <path
@@ -254,12 +51,9 @@
        refX="2"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
        markerWidth="0.15000001"
        markerHeight="0.15000001"
        viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
        preserveAspectRatio="xMidYMid"
        markerUnits="userSpaceOnUse">
       <path
@@ -274,18 +68,14 @@
        refX="0"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Wide arrow"
        markerWidth="1"
        markerHeight="1"
        viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
          style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
          d="M 3,-3 0,0 3,3"
          transform="rotate(180,0.125,0)"
-         sodipodi:nodetypes="ccc"
          id="path26" />
     </marker>
     <marker
@@ -294,18 +84,14 @@
        refX="0"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Wide arrow"
        markerWidth="1"
        markerHeight="1"
        viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
          style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
          d="M 3,-3 0,0 3,3"
          transform="rotate(180,0.125,0)"
-         sodipodi:nodetypes="ccc"
          id="path16" />
     </marker>
     <marker
@@ -314,18 +100,14 @@
        refX="0"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Wide arrow"
        markerWidth="1"
        markerHeight="1"
        viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
          style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
          d="M 3,-3 0,0 3,3"
          transform="rotate(180,0.125,0)"
-         sodipodi:nodetypes="ccc"
          id="path1" />
     </marker>
     <marker
@@ -334,12 +116,9 @@
        refX="2"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
        markerWidth="0.15000001"
        markerHeight="0.15000001"
        viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
        preserveAspectRatio="xMidYMid"
        markerUnits="userSpaceOnUse">
       <path
@@ -354,12 +133,9 @@
        refX="2"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
        markerWidth="0.15000001"
        markerHeight="0.15000001"
        viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
        preserveAspectRatio="xMidYMid"
        markerUnits="userSpaceOnUse">
       <path
@@ -370,12 +146,10 @@
     </marker>
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(6.5840576,-0.02338608)">
     <g
-       id="g3"
+       id="input-register"
        text-anchor="middle"
        dominant-baseline="middle"
        transform="matrix(1.2896317,0,0,1,6.7794745,4.100874)"
@@ -394,13 +168,13 @@
          y="1.6032374"
          id="text2"
          transform="scale(0.87055348,1.1486945)"><tspan
-           sodipodi:role="line"
            id="tspan2"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.15167px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.232986"
            x="7.2345366"
            y="1.6032374">Input Register</tspan></text>
       <g
          id="g10"
+         class="binary-display"
          transform="matrix(0.77541519,0,0,1,2.5952025,-1.2515575)">
         <rect
            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
@@ -417,7 +191,6 @@
            x="3.1687078"
            y="4.5469022"
            id="text6-66-4-4"><tspan
-             sodipodi:role="line"
              id="tspan6-38-5-0"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
              x="3.1687078"
@@ -437,12 +210,10 @@
            x="5.3671312"
            y="4.5469022"
            id="text4-2"><tspan
-             sodipodi:role="line"
              id="tspan4-3"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="5.3671312"
              y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="5.3671312"
              y="6.200552"
@@ -462,7 +233,6 @@
            x="7.4041581"
            y="4.5469022"
            id="text6-66-4-4-7"><tspan
-             sodipodi:role="line"
              id="tspan6-38-5-0-3"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
              x="7.4041581"
@@ -482,12 +252,10 @@
            x="1.1316808"
            y="4.5469022"
            id="text4-2-9"><tspan
-             sodipodi:role="line"
              id="tspan4-3-4"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="1.1316808"
              y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="1.1316808"
              y="6.200552"
@@ -507,7 +275,6 @@
            x="2.1098454"
            y="4.5469022"
            id="text6-66-4-4-3"><tspan
-             sodipodi:role="line"
              id="tspan6-38-5-0-9"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
              x="2.1098454"
@@ -527,12 +294,10 @@
            x="4.3082685"
            y="4.5469022"
            id="text4-2-5"><tspan
-             sodipodi:role="line"
              id="tspan4-3-8"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="4.3082685"
              y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="4.3082685"
              y="6.200552"
@@ -552,7 +317,6 @@
            x="6.3452954"
            y="4.5469022"
            id="text6-66-4-4-1"><tspan
-             sodipodi:role="line"
              id="tspan6-38-5-0-8"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
              x="6.3452954"
@@ -572,12 +336,10 @@
            x="8.5437183"
            y="4.5469022"
            id="text4-2-7"><tspan
-             sodipodi:role="line"
              id="tspan4-3-87"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="8.5437183"
              y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="8.5437183"
              y="6.200552"
@@ -585,7 +347,7 @@
       </g>
     </g>
     <g
-       id="g3-1"
+       id="output-display"
        text-anchor="middle"
        dominant-baseline="middle"
        transform="matrix(1.2896317,0,0,1,-4.3304146,0.44218221)"
@@ -604,13 +366,13 @@
          y="1.6032374"
          id="text2-14"
          transform="scale(0.87055348,1.1486945)"><tspan
-           sodipodi:role="line"
            id="tspan2-2"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.15167px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.232986"
            x="7.2345366"
            y="1.6032374">Output Display</tspan></text>
       <g
          id="g10-9"
+         class="binary-display"
          transform="matrix(0.77541519,0,0,1,2.5952025,-1.2515575)">
         <rect
            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
@@ -627,7 +389,6 @@
            x="3.1687078"
            y="4.5469022"
            id="text6-66-4-4-9"><tspan
-             sodipodi:role="line"
              id="tspan6-38-5-0-1"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
              x="3.1687078"
@@ -647,12 +408,10 @@
            x="5.3671312"
            y="4.5469022"
            id="text4-2-2"><tspan
-             sodipodi:role="line"
              id="tspan4-3-75"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="5.3671312"
              y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="5.3671312"
              y="6.200552"
@@ -672,7 +431,6 @@
            x="7.4041581"
            y="4.5469022"
            id="text6-66-4-4-7-1"><tspan
-             sodipodi:role="line"
              id="tspan6-38-5-0-3-3"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
              x="7.4041581"
@@ -692,12 +450,10 @@
            x="1.1316808"
            y="4.5469022"
            id="text4-2-9-85"><tspan
-             sodipodi:role="line"
              id="tspan4-3-4-6"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="1.1316808"
              y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="1.1316808"
              y="6.200552"
@@ -717,7 +473,6 @@
            x="2.1098454"
            y="4.5469022"
            id="text6-66-4-4-3-1"><tspan
-             sodipodi:role="line"
              id="tspan6-38-5-0-9-2"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
              x="2.1098454"
@@ -737,12 +492,10 @@
            x="4.3082685"
            y="4.5469022"
            id="text4-2-5-6"><tspan
-             sodipodi:role="line"
              id="tspan4-3-8-18"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="4.3082685"
              y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="4.3082685"
              y="6.200552"
@@ -762,7 +515,6 @@
            x="6.3452954"
            y="4.5469022"
            id="text6-66-4-4-1-2"><tspan
-             sodipodi:role="line"
              id="tspan6-38-5-0-8-5"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
              x="6.3452954"
@@ -782,12 +534,10 @@
            x="8.5437183"
            y="4.5469022"
            id="text4-2-7-5"><tspan
-             sodipodi:role="line"
              id="tspan4-3-87-7"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="8.5437183"
              y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
              x="8.5437183"
              y="6.200552"
@@ -795,12 +545,11 @@
       </g>
     </g>
     <g
-       id="g3-4"
-       text-anchor="middle"
-       dominant-baseline="middle"
-       transform="matrix(1.2896317,0,0,1,0.47118282,16.257685)"
-       style="stroke-width:0.880576"
-       inkscape:connector-avoid="true">
+      id="akku"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      transform="matrix(1.2896317,0,0,1,0.47118282,16.257685)"
+      style="stroke-width:0.880576">
       <rect
          style="fill:#c8ffff;fill-opacity:1;stroke:#000000;stroke-width:0.116493;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
          id="rect1-9"
@@ -815,208 +564,194 @@
          y="1.6032374"
          id="text2-3"
          transform="scale(0.87055348,1.1486945)"><tspan
-           sodipodi:role="line"
-           id="tspan2-8"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.15167px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.232986"
-           x="7.2345366"
-           y="1.6032374">Akkumulator</tspan><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.15167px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.232986"
-           x="7.2345366"
-           y="3.0428247"
-           id="tspan13" /></text>
+            id="tspan2-8"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.15167px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.232986"
+            x="7.2345366"
+            y="1.6032374">Akkumulator</tspan><tspan
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.15167px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.232986"
+            x="7.2345366"
+            y="3.0428247"
+            id="tspan13" /></text>
       <g
          id="g10-5"
+         class="binary-display"
          transform="matrix(0.77541519,0,0,1,2.5952025,-1.2515575)">
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-86"
-           width="0.92604136"
-           height="1.1906247"
-           x="2.7056873"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="3.1687078"
-           y="4.5469022"
-           id="text6-66-4-4-0"><tspan
-             sodipodi:role="line"
-             id="tspan6-38-5-0-7"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
-             x="3.1687078"
-             y="4.5469022">0</tspan></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-2-9"
-           width="0.92604136"
-           height="1.1906247"
-           x="4.8234124"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="5.3671312"
-           y="4.5469022"
-           id="text4-2-57"><tspan
-             sodipodi:role="line"
-             id="tspan4-3-6"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="5.3671312"
-             y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="5.3671312"
-             y="6.200552"
-             id="tspan5-4-3" /></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-8-3"
-           width="0.92604136"
-           height="1.1906247"
-           x="6.9411373"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="7.4041581"
-           y="4.5469022"
-           id="text6-66-4-4-7-2"><tspan
-             sodipodi:role="line"
-             id="tspan6-38-5-0-3-4"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
-             x="7.4041581"
-             y="4.5469022">0</tspan></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-2-1-7"
-           width="0.92604136"
-           height="1.1906247"
-           x="0.58796221"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="1.1316808"
-           y="4.5469022"
-           id="text4-2-9-8"><tspan
-             sodipodi:role="line"
-             id="tspan4-3-4-5"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="1.1316808"
-             y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="1.1316808"
-             y="6.200552"
-             id="tspan5-4-0-3" /></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-7-0"
-           width="0.92604136"
-           height="1.1906247"
-           x="1.6468247"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="2.1098454"
-           y="4.5469022"
-           id="text6-66-4-4-3-9"><tspan
-             sodipodi:role="line"
-             id="tspan6-38-5-0-9-6"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
-             x="2.1098454"
-             y="4.5469022">0</tspan></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-2-8-3"
-           width="0.92604136"
-           height="1.1906247"
-           x="3.7645497"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="4.3082685"
-           y="4.5469022"
-           id="text4-2-5-4"><tspan
-             sodipodi:role="line"
-             id="tspan4-3-8-1"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="4.3082685"
-             y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="4.3082685"
-             y="6.200552"
-             id="tspan5-4-7-8" /></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-1-9"
-           width="0.92604136"
-           height="1.1906247"
-           x="5.8822746"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="6.3452954"
-           y="4.5469022"
-           id="text6-66-4-4-1-0"><tspan
-             sodipodi:role="line"
-             id="tspan6-38-5-0-8-4"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
-             x="6.3452954"
-             y="4.5469022">0</tspan></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-2-4-4"
-           width="0.92604136"
-           height="1.1906247"
-           x="8"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="8.5437183"
-           y="4.5469022"
-           id="text4-2-7-9"><tspan
-             sodipodi:role="line"
-             id="tspan4-3-87-9"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="8.5437183"
-             y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="8.5437183"
-             y="6.200552"
-             id="tspan5-4-4-4" /></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-86"
+            width="0.92604136"
+            height="1.1906247"
+            x="2.7056873"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="3.1687078"
+            y="4.5469022"
+            id="text6-66-4-4-0"><tspan
+            id="tspan6-38-5-0-7"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
+            x="3.1687078"
+            y="4.5469022">0</tspan></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-2-9"
+            width="0.92604136"
+            height="1.1906247"
+            x="4.8234124"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="5.3671312"
+            y="4.5469022"
+            id="text4-2-57"><tspan
+            id="tspan4-3-6"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="5.3671312"
+            y="4.5469022">1</tspan><tspan
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="5.3671312"
+            y="6.200552"
+            id="tspan5-4-3" /></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-8-3"
+            width="0.92604136"
+            height="1.1906247"
+            x="6.9411373"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="7.4041581"
+            y="4.5469022"
+            id="text6-66-4-4-7-2"><tspan
+            id="tspan6-38-5-0-3-4"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
+            x="7.4041581"
+            y="4.5469022">0</tspan></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-2-1-7"
+            width="0.92604136"
+            height="1.1906247"
+            x="0.58796221"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="1.1316808"
+            y="4.5469022"
+            id="text4-2-9-8"><tspan
+            id="tspan4-3-4-5"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="1.1316808"
+            y="4.5469022">1</tspan><tspan
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="1.1316808"
+            y="6.200552"
+            id="tspan5-4-0-3" /></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-7-0"
+            width="0.92604136"
+            height="1.1906247"
+            x="1.6468247"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="2.1098454"
+            y="4.5469022"
+            id="text6-66-4-4-3-9"><tspan
+            id="tspan6-38-5-0-9-6"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
+            x="2.1098454"
+            y="4.5469022">0</tspan></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-2-8-3"
+            width="0.92604136"
+            height="1.1906247"
+            x="3.7645497"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="4.3082685"
+            y="4.5469022"
+            id="text4-2-5-4"><tspan
+            id="tspan4-3-8-1"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="4.3082685"
+            y="4.5469022">1</tspan><tspan
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="4.3082685"
+            y="6.200552"
+            id="tspan5-4-7-8" /></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-1-9"
+            width="0.92604136"
+            height="1.1906247"
+            x="5.8822746"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="6.3452954"
+            y="4.5469022"
+            id="text6-66-4-4-1-0"><tspan
+            id="tspan6-38-5-0-8-4"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
+            x="6.3452954"
+            y="4.5469022">0</tspan></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-2-4-4"
+            width="0.92604136"
+            height="1.1906247"
+            x="8"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="8.5437183"
+            y="4.5469022"
+            id="text4-2-7-9"><tspan
+            id="tspan4-3-87-9"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="8.5437183"
+            y="4.5469022">1</tspan><tspan
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="8.5437183"
+            y="6.200552"
+            id="tspan5-4-4-4" /></text>
       </g>
     </g>
     <g
-       id="g3-5"
-       text-anchor="middle"
-       dominant-baseline="middle"
-       transform="matrix(1.2896317,0,0,1,11.471182,16.257685)"
-       style="stroke-width:0.880576"
-       inkscape:connector-avoid="true">
+      id="mq-register"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      transform="matrix(1.2896317,0,0,1,11.471182,16.257685)"
+      style="stroke-width:0.880576">
       <rect
          style="fill:#c8ffff;fill-opacity:1;stroke:#000000;stroke-width:0.116493;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
          id="rect1-0"
@@ -1031,204 +766,190 @@
          y="1.6032374"
          id="text2-1"
          transform="scale(0.87055348,1.1486945)"><tspan
-           sodipodi:role="line"
-           id="tspan2-5"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.15167px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.232986"
-           x="7.2345366"
-           y="1.6032374">MQ-Register</tspan></text>
+            id="tspan2-5"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.15167px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.232986"
+            x="7.2345366"
+            y="1.6032374">MQ-Register</tspan></text>
       <g
          id="g10-8"
+         class="binary-display"
          transform="matrix(0.77541519,0,0,1,2.5952025,-1.2515575)">
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-6"
-           width="0.92604136"
-           height="1.1906247"
-           x="2.7056873"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="3.1687078"
-           y="4.5469022"
-           id="text6-66-4-4-01"><tspan
-             sodipodi:role="line"
-             id="tspan6-38-5-0-0"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
-             x="3.1687078"
-             y="4.5469022">0</tspan></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-2-7"
-           width="0.92604136"
-           height="1.1906247"
-           x="4.8234124"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="5.3671312"
-           y="4.5469022"
-           id="text4-2-1"><tspan
-             sodipodi:role="line"
-             id="tspan4-3-7"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="5.3671312"
-             y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="5.3671312"
-             y="6.200552"
-             id="tspan5-4-03" /></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-8-9"
-           width="0.92604136"
-           height="1.1906247"
-           x="6.9411373"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="7.4041581"
-           y="4.5469022"
-           id="text6-66-4-4-7-8"><tspan
-             sodipodi:role="line"
-             id="tspan6-38-5-0-3-6"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
-             x="7.4041581"
-             y="4.5469022">0</tspan></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-2-1-5"
-           width="0.92604136"
-           height="1.1906247"
-           x="0.58796221"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="1.1316808"
-           y="4.5469022"
-           id="text4-2-9-1"><tspan
-             sodipodi:role="line"
-             id="tspan4-3-4-4"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="1.1316808"
-             y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="1.1316808"
-             y="6.200552"
-             id="tspan5-4-0-5" /></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-7-1"
-           width="0.92604136"
-           height="1.1906247"
-           x="1.6468247"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="2.1098454"
-           y="4.5469022"
-           id="text6-66-4-4-3-0"><tspan
-             sodipodi:role="line"
-             id="tspan6-38-5-0-9-9"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
-             x="2.1098454"
-             y="4.5469022">0</tspan></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-2-8-0"
-           width="0.92604136"
-           height="1.1906247"
-           x="3.7645497"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="4.3082685"
-           y="4.5469022"
-           id="text4-2-5-0"><tspan
-             sodipodi:role="line"
-             id="tspan4-3-8-5"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="4.3082685"
-             y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="4.3082685"
-             y="6.200552"
-             id="tspan5-4-7-6" /></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-1-0"
-           width="0.92604136"
-           height="1.1906247"
-           x="5.8822746"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="6.3452954"
-           y="4.5469022"
-           id="text6-66-4-4-1-6"><tspan
-             sodipodi:role="line"
-             id="tspan6-38-5-0-8-45"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
-             x="6.3452954"
-             y="4.5469022">0</tspan></text>
-        <rect
-           style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-           id="rect6-2-4-7"
-           width="0.92604136"
-           height="1.1906247"
-           x="8"
-           y="3.8093753"
-           rx="0"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
-           x="8.5437183"
-           y="4.5469022"
-           id="text4-2-7-7"><tspan
-             sodipodi:role="line"
-             id="tspan4-3-87-2"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="8.5437183"
-             y="4.5469022">1</tspan><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
-             x="8.5437183"
-             y="6.200552"
-             id="tspan5-4-4-7" /></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-6"
+            width="0.92604136"
+            height="1.1906247"
+            x="2.7056873"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="3.1687078"
+            y="4.5469022"
+            id="text6-66-4-4-01"><tspan
+            id="tspan6-38-5-0-0"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
+            x="3.1687078"
+            y="4.5469022">0</tspan></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-2-7"
+            width="0.92604136"
+            height="1.1906247"
+            x="4.8234124"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="5.3671312"
+            y="4.5469022"
+            id="text4-2-1"><tspan
+            id="tspan4-3-7"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="5.3671312"
+            y="4.5469022">1</tspan><tspan
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="5.3671312"
+            y="6.200552"
+            id="tspan5-4-03" /></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-8-9"
+            width="0.92604136"
+            height="1.1906247"
+            x="6.9411373"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="7.4041581"
+            y="4.5469022"
+            id="text6-66-4-4-7-8"><tspan
+            id="tspan6-38-5-0-3-6"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
+            x="7.4041581"
+            y="4.5469022">0</tspan></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-2-1-5"
+            width="0.92604136"
+            height="1.1906247"
+            x="0.58796221"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="1.1316808"
+            y="4.5469022"
+            id="text4-2-9-1"><tspan
+            id="tspan4-3-4-4"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="1.1316808"
+            y="4.5469022">1</tspan><tspan
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="1.1316808"
+            y="6.200552"
+            id="tspan5-4-0-5" /></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-7-1"
+            width="0.92604136"
+            height="1.1906247"
+            x="1.6468247"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="2.1098454"
+            y="4.5469022"
+            id="text6-66-4-4-3-0"><tspan
+            id="tspan6-38-5-0-9-9"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
+            x="2.1098454"
+            y="4.5469022">0</tspan></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-2-8-0"
+            width="0.92604136"
+            height="1.1906247"
+            x="3.7645497"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="4.3082685"
+            y="4.5469022"
+            id="text4-2-5-0"><tspan
+            id="tspan4-3-8-5"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="4.3082685"
+            y="4.5469022">1</tspan><tspan
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="4.3082685"
+            y="6.200552"
+            id="tspan5-4-7-6" /></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-1-0"
+            width="0.92604136"
+            height="1.1906247"
+            x="5.8822746"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="6.3452954"
+            y="4.5469022"
+            id="text6-66-4-4-1-6"><tspan
+            id="tspan6-38-5-0-8-45"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:8.46667"
+            x="6.3452954"
+            y="4.5469022">0</tspan></text>
+         <rect
+            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+            id="rect6-2-4-7"
+            width="0.92604136"
+            height="1.1906247"
+            x="8"
+            y="3.8093753"
+            rx="0"
+            ry="0" />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke:none;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.1"
+            x="8.5437183"
+            y="4.5469022"
+            id="text4-2-7-7"><tspan
+            id="tspan4-3-87-2"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="8.5437183"
+            y="4.5469022">1</tspan><tspan
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32292px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ff00;stroke-width:8.46667"
+            x="8.5437183"
+            y="6.200552"
+            id="tspan5-4-4-7" /></text>
       </g>
     </g>
     <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker16);marker-end:url(#ArrowWide)"
-       d="m 12.924799,19.410815 h 2.29472"
-       id="path13"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
+      style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker16);marker-end:url(#ArrowWide)"
+      d="m 12.924799,19.410815 h 2.29472"
+      id="akku-mq" />
     <g
-       id="g16">
+       id="alu">
       <rect
          style="fill:#64a3a3;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
          id="rect16"
@@ -1252,7 +973,6 @@
          x="8.315752"
          y="10.800194"
          id="text4"><tspan
-           sodipodi:role="line"
            id="tspan4"
            style="stroke-width:0.132292"
            x="8.315752"
@@ -1263,12 +983,10 @@
          x="12.501042"
          y="10.800194"
          id="text10"><tspan
-           sodipodi:role="line"
            id="tspan10"
            style="stroke-width:0.132292"
            x="12.501042"
            y="10.800194">B</tspan><tspan
-           sodipodi:role="line"
            style="stroke-width:0.132292"
            x="12.501042"
            y="11.792381"
@@ -1279,7 +997,6 @@
          x="8.2876549"
          y="14.780339"
          id="text14"><tspan
-           sodipodi:role="line"
            id="tspan14"
            style="stroke-width:0.132292"
            x="8.2876549"
@@ -1301,12 +1018,10 @@
          x="5.6946292"
          y="7.4581733"
          id="text17"><tspan
-           sodipodi:role="line"
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
            x="5.6946292"
            y="7.4581733"
            id="tspan18">Carry-Out</tspan><tspan
-           sodipodi:role="line"
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
            x="5.6946292"
            y="8.232892"
@@ -1328,19 +1043,17 @@
          x="-0.45125839"
          y="6.8977132"
          id="text17-0"><tspan
-           sodipodi:role="line"
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
            x="-0.45125839"
            y="6.8977132"
            id="tspan19-9">Zero</tspan><tspan
-           sodipodi:role="line"
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
            x="-0.45125839"
            y="7.6724319"
            id="tspan20">Detector</tspan></text>
     </g>
     <g
-       id="g19-4-0"
+       id="shift-counter"
        transform="translate(20.010257,17.121071)">
       <rect
          style="fill:#c8ffff;fill-opacity:1;stroke:#000000;stroke-width:0.0847239;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
@@ -1355,14 +1068,12 @@
          x="0.6297161"
          y="6.9013443"
          id="text17-0-6"><tspan
-           sodipodi:role="line"
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
-           x="-0.4424825"
+           x="0.7"
            y="6.9013443"
            id="tspan20-7">Shift</tspan><tspan
-           sodipodi:role="line"
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
-           x="-0.44248244"
+           x="0.7"
            y="7.6760631"
            id="tspan21">Counter</tspan></text>
       <text
@@ -1371,7 +1082,6 @@
          x="0.81090772"
          y="6.7353792"
          id="text26"><tspan
-           sodipodi:role="line"
            id="tspan25"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.264583px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
            x="0.81090772"
@@ -1382,7 +1092,6 @@
          x="0.83836079"
          y="7.6551161"
          id="text26-6"><tspan
-           sodipodi:role="line"
            id="tspan25-8"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.264583px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
            x="0.83836079"
@@ -1401,8 +1110,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke-width:0.132292;stroke-miterlimit:2"
          x="-1.978254"
          y="6.9256716"
-         id="text37"><tspan
-           sodipodi:role="line"
+         id="shift-counter-count"><tspan
            id="tspan37"
            style="fill:#000000;stroke-width:0.132292"
            x="-1.978254"
@@ -1411,87 +1119,56 @@
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.124435;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker26)"
        d="M 6.9999999,12.499999 H 5.8148458"
-       id="path25"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
+       id="carry-out-line-1" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.0661457, 0.0661457;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Triangle)"
        d="M 12.767499,8.1426194 V 9.7015473"
-       id="path27"
-       inkscape:connector-type="orthogonal"
-       inkscape:connector-curvature="0" />
+       id="path27" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.0661459, 0.0661459;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Triangle-8)"
        d="m 8.5750401,15.000545 v 1.941884"
-       id="path27-4"
-       inkscape:connector-type="orthogonal"
-       inkscape:connector-curvature="0" />
+       id="path27-4" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.0661459, 0.0661459;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Triangle-7)"
        d="m 8.5750393,20.276043 v 1.633253"
-       id="path27-1"
-       inkscape:connector-type="orthogonal"
-       inkscape:connector-curvature="0" />
+       id="path27-1" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:0.0661459, 0.0661459;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker33)"
        d="m 3.8833333,18.759152 -3.7980026,-0.0045 V 5.0514152"
-       id="path29"
-       sodipodi:nodetypes="ccc" />
+       id="path29" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:0.0661458, 0.0661458;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker35)"
        d="m 8.5750404,9.7011288 -1.1e-6,-1.5818961 H 0.0853307"
-       id="path34"
-       sodipodi:nodetypes="ccc" />
+       id="path34" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 2.1062069,12.499997 -3.0995876,10e-7"
-       id="path36"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       id="carry-out-line-2" />
     <g
        id="g56">
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          d="m 18.737663,10.749104 h 7.640354"
-         id="path37"
-         inkscape:connector-type="polyline"
-         inkscape:connector-curvature="0" />
+         id="input-a" />
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          d="m 18.737663,13.189822 h 7.640354"
-         id="path38"
-         inkscape:connector-type="orthogonal"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         id="carry-in" />
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          d="m 18.737663,14.25089 h 7.640354"
-         id="path39"
-         inkscape:connector-type="orthogonal"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         id="input-c" />
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          d="m 18.737663,12.045814 h 7.640354"
-         id="path40"
-         inkscape:connector-type="orthogonal"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         id="input-b" />
     </g>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 25.146303,11.474883 v 0"
-       id="path41"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.264583px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.132292;stroke-miterlimit:2"
        x="4.4043183"
        y="9.0415249"
-       id="text29"><tspan
-         sodipodi:role="line"
+       id="alu-a"><tspan
          id="tspan28"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="4.4043183"
@@ -1511,8 +1188,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.264583px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.132292;stroke-miterlimit:2"
        x="4.4536247"
        y="16.454105"
-       id="text29-5"><tspan
-         sodipodi:role="line"
+       id="alu-c"><tspan
          id="tspan28-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="4.4536247"
@@ -1530,30 +1206,23 @@
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 24.266744,17.830055 h 2.111272"
-       id="path42"
-       inkscape:connector-type="orthogonal"
-       inkscape:connector-curvature="0" />
+       id="sh-mq-1" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 24.266745,19.574152 h 2.111272"
-       id="path43"
-       inkscape:connector-type="orthogonal"
-       inkscape:connector-curvature="0" />
+       id="reset-mq" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none"
        d="M 26.378017,16.528189 H 12.051695 v 0.705147"
-       id="path2"
-       sodipodi:nodetypes="ccc" />
+       id="sh-ak-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none"
        d="m 12.051695,20.276044 v 0.677886 h 9.824502 4.50182"
-       id="path3"
-       sodipodi:nodetypes="cccc" />
+       id="shl-shr-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none"
        d="M 21.876197,20.276044 V 20.95393"
-       id="path5"
-       sodipodi:nodetypes="cc" />
+       id="shl-shr-2" />
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none"
        id="path6"
@@ -1575,23 +1244,19 @@
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="M 6.797913,23.18432 H -0.9933807"
-       id="path8"
-       sodipodi:nodetypes="cc" />
+       id="ak-0" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="M 0.0853307,18.754689 H -0.9933807"
-       id="path9"
-       sodipodi:nodetypes="cc" />
+       id="sign" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="m 21.352164,24.67994 h 5.025853"
-       id="path10"
-       sodipodi:nodetypes="cc" />
+       id="reset-sc" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="M 21.362107,23.760203 H 24.57718"
-       id="path11"
-       sodipodi:nodetypes="cc" />
+       id="sc-clk" />
     <g
        id="g45"
        transform="translate(-8.6242676e-7,1.5872742)">
@@ -1608,7 +1273,6 @@
          x="24.729647"
          y="22.557917"
          id="text11"><tspan
-           sodipodi:role="line"
            id="tspan11"
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-dasharray:none"
            x="24.729647"
@@ -1617,30 +1281,25 @@
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="M 24.888603,16.528189 V 23.18432"
-       id="path12"
-       sodipodi:nodetypes="cc" />
+       id="sh-ak-2" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="m 25.586964,17.830055 -10e-7,5.354265"
-       id="path14"
-       sodipodi:nodetypes="cc" />
+       id="sh-mq-2" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="M -0.9933807,24.67994 H 17.797911"
-       id="path15"
-       sodipodi:nodetypes="cc" />
+       id="sc-0" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="m 23.103966,20.006127 v 5.864727 H -0.9933807"
-       id="path17"
-       sodipodi:nodetypes="ccc" />
+       id="mq-0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        x="26.378017"
        y="11.094301"
        id="text18"><tspan
-         sodipodi:role="line"
          id="tspan17"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
          x="26.378017"
@@ -1651,17 +1310,14 @@
        x="26.378017"
        y="12.261563"
        id="text22"><tspan
-         sodipodi:role="line"
          id="tspan22"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="26.378017"
          y="12.261563"> B/~B</tspan><tspan
-         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="26.378017"
          y="13.088386"
          id="tspan23" /><tspan
-         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="26.378017"
          y="13.915209"
@@ -1672,7 +1328,6 @@
        x="26.378017"
        y="13.366814"
        id="text25"><tspan
-         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="26.378017"
          y="13.366814"
@@ -1683,7 +1338,6 @@
        x="26.378017"
        y="14.466639"
        id="text27"><tspan
-         sodipodi:role="line"
          id="tspan27"
          style="stroke-width:0.132292"
          x="26.378017"
@@ -1694,7 +1348,6 @@
        x="26.378017"
        y="15.976027"
        id="text27-5"><tspan
-         sodipodi:role="line"
          id="tspan27-6"
          style="stroke-width:0.132292"
          x="26.378017"
@@ -1707,7 +1360,6 @@
        x="26.378017"
        y="16.737556"
        id="text28"><tspan
-         sodipodi:role="line"
          id="tspan29"
          x="26.378017"
          y="16.737556"> sh<tspan
@@ -1719,7 +1371,6 @@
        x="26.378016"
        y="18.021788"
        id="text28-9"><tspan
-         sodipodi:role="line"
          id="tspan29-5"
          x="26.378016"
          y="18.021788"> sh<tspan
@@ -1728,15 +1379,13 @@
     <path
        style="font-variation-settings:'opsz' 32;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="m 26.378018,15.759244 -15.674043,0 1e-6,1.474092"
-       id="path44"
-       sodipodi:nodetypes="ccc" />
+       id="write-ak" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        x="26.378017"
        y="22.028582"
        id="text44"><tspan
-         sodipodi:role="line"
          id="tspan44"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-opacity:1"
          x="26.378017"
@@ -1749,7 +1398,6 @@
        x="26.378017"
        y="24.886284"
        id="text44-6"><tspan
-         sodipodi:role="line"
          id="tspan44-1"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-opacity:1"
          x="26.378017"
@@ -1762,7 +1410,6 @@
        x="26.378017"
        y="19.765884"
        id="text44-7"><tspan
-         sodipodi:role="line"
          id="tspan44-2"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-opacity:1"
          x="26.378017"
@@ -1772,8 +1419,7 @@
     <path
        style="font-variation-settings:'opsz' 32;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="m 10.703975,20.276045 v 1.54317 h 15.674042"
-       id="path45"
-       sodipodi:nodetypes="ccc" />
+       id="reset-ak" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
@@ -1792,15 +1438,13 @@
     <path
        style="font-variation-settings:'opsz' 32;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="m 23.476772,20.006128 v 2.6316 h 2.901245"
-       id="path47"
-       sodipodi:nodetypes="ccc" />
+       id="1-mq-0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        x="26.378017"
        y="22.848722"
        id="text47"><tspan
-         sodipodi:role="line"
          id="tspan47"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
          x="26.378017"
@@ -1813,12 +1457,10 @@
        x="25.628128"
        y="8.0697918"
        id="text49"><tspan
-         sodipodi:role="line"
          id="tspan49"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="25.628128"
          y="8.0697918">Input</tspan><tspan
-         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="25.628128"
          y="9.392704"
@@ -1829,12 +1471,10 @@
        x="-1.3318597"
        y="9.166173"
        id="text49-4"><tspan
-         sodipodi:role="line"
          id="tspan49-8"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="-1.3318596"
          y="9.166173">Output</tspan><tspan
-         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="-1.3318596"
          y="10.489085"
@@ -1845,7 +1485,6 @@
        x="-1.3383189"
        y="12.712387"
        id="text51"><tspan
-         sodipodi:role="line"
          id="tspan51"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
          x="-1.3383191"
@@ -1856,7 +1495,6 @@
        x="-2.8428783"
        y="18.964367"
        id="text52"><tspan
-         sodipodi:role="line"
          id="tspan52"
          style="stroke-width:0.132292"
          x="-2.8428783"
@@ -1867,7 +1505,6 @@
        x="-3.2292888"
        y="23.473063"
        id="text53"><tspan
-         sodipodi:role="line"
          id="tspan53"
          style="stroke-width:0.132292"
          x="-3.2292888"
@@ -1878,7 +1515,6 @@
        x="-3.3688152"
        y="24.968683"
        id="text54"><tspan
-         sodipodi:role="line"
          id="tspan54"
          style="stroke-width:0.132292"
          x="-3.3688152"
@@ -1889,21 +1525,11 @@
        x="-2.9265554"
        y="26.081848"
        id="text55"><tspan
-         sodipodi:role="line"
          id="tspan55"
          style="stroke-width:0.132292"
          x="-2.9265554"
          y="26.081848">MQ<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan56">0</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:0.79375px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.132292;stroke-miterlimit:2"
-       x="12.767498"
-       y="10.337386"
-       id="text9"><tspan
-         sodipodi:role="line"
-         id="tspan9"
-         style="stroke-width:0.132292"></tspan></text>
   </g>
 </svg>
