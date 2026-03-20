@@ -12,10 +12,17 @@
                         { "type": "integer" },
                         { "enum": ["in1", "in2"] }
                     ]
-                }
+                },
+                "setShiftCounter": { "type": "number" },
+
+                "comment": { "type": "string" }
             },
             "additionalProperties": false,
-            "required": ["type", "setInput"]
+            "required": ["type"],
+            "anyOf": [
+                { "required": ["setInput"] },
+                { "required": ["setShiftCounter"] }
+            ]
         },
         "JumpInstruction": {
             "type": "object",
@@ -26,10 +33,17 @@
                     "enum": ["c-o", "sgn", "ak0", "sc0", "mq0", "jmp"]
                 },
                 "if": { "type": "boolean" },
-                "line": { "type": "integer" }
+                "line": { "type": "integer" },
+                "skip": { "type": "integer"},
+
+                "comment": { "type": "string" }
             },
             "additionalProperties": false,
-            "required": ["type", "signal", "line"],
+            "required": ["type", "signal"],
+            "oneOf": [
+                { "required": ["line"], "not": { "required": ["skip"] } },
+                { "required": ["skip"], "not": { "required": ["line"] } }
+            ],
 
             "allOf": [
                 {
@@ -58,7 +72,9 @@
                 "shL":  { "type": "boolean", "default": false },
                 "rsAk": { "type": "boolean", "default": false },
                 "sMQ0": { "type": "boolean", "default": false },
-                "rsSC": { "type": "boolean", "default": false }
+                "rsSC": { "type": "boolean", "default": false },
+
+                "comment": { "type": "string" }
             },
             "additionalProperties": false,
             "required": ["type"]

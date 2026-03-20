@@ -1,5 +1,5 @@
 import svg from "./assets/layout.plain.svg?raw";
-import program from "./assets/AddInt.json?url";
+import program from "./assets/MultiplyInt.json?url";
 import { calculateAlu, executeLine } from "./calculate";
 import * as e from "./elements";
 import state from "./state";

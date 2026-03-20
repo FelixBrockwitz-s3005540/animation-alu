@@ -4,35 +4,37 @@ export interface Instruction {
 
 export interface MemoryInstruction extends Instruction {
     type: "mem";
-    setInput: number | "in1" | "in2";
+    setInput?: number | "in1" | "in2";
+    setShiftCounter?: number;
 }
 
 export interface JumpInstruction extends Instruction {
     type: "jmp";
     signal: "c-o" | "sgn" | "ak0" | "sc0" | "mq0" | "jmp";
-    if: boolean | undefined;
-    line: number;
+    if?: boolean;
+    line?: number;
+    skip?: number;
 }
 
 export interface ALUInstruction extends Instruction {
     type: "alu";
-    invA: boolean | undefined;
-    invB: boolean | undefined;
-    caIn: boolean | undefined;
-    invC: boolean | undefined;
+    invA?: boolean;
+    invB?: boolean;
+    caIn?: boolean;
+    invC?: boolean;
 
-    wrAk: boolean | undefined;
-    shAk: boolean | undefined;
-    shMQ: boolean | undefined;
-    rsMQ: boolean | undefined;
-    shL: boolean | undefined;
-    rsAk: boolean | undefined;
-    sMQ0: boolean | undefined;
-    rsSC: boolean | undefined;
+    wrAk?: boolean;
+    shAk?: boolean;
+    shMQ?: boolean;
+    rsMQ?: boolean;
+    shL?: boolean;
+    rsAk?: boolean;
+    sMQ0?: boolean;
+    rsSC?: boolean;
 }
 
 export interface Program {
-    name: string | undefined,
+    name?: string,
     unit: "int" | "float",
     instructions: Instruction[],
 }

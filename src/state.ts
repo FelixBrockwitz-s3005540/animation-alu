@@ -31,7 +31,7 @@ const state = {
     carryOut: false,
 
     get sign() {
-        return toBits(state.ak, 8)[7];
+        return toBits(state.ak, 8)[7]!;
     },
     get ak0() {
         return state.ak === 0;
@@ -40,7 +40,7 @@ const state = {
         return state.sc === 0;
     },
     get mq0() {
-        return toBits(state.mq, 8)[0];
+        return toBits(state.mq, 8)[0]!;
     },
 }
 

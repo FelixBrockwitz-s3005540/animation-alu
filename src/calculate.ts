@@ -1,4 +1,4 @@
-import type { ALUInstruction, MemoryInstruction } from "./instructions";
+import type { ALUInstruction, JumpInstruction, MemoryInstruction } from "./instructions";
 import state from "./state";
 import * as e from "./elements";
 
@@ -17,14 +17,17 @@ export function executeLine(line: number) {
                 state.programCounter++;
                 state.shownInput = false;
             } else {
+                setInputs({ type: "alu"});
                 state.shownInput = true;
             }
             break;
 
         case "jmp":
             if (state.shownInput) {
+                executeJmp(instruction as JumpInstruction);
                 state.shownInput = false;
             } else {
+                setInputs({ type: "alu"});
                 state.shownInput = true;
             }
             break;
@@ -52,23 +55,79 @@ export function executeMem(instruction: MemoryInstruction) {
         case "in2":
             state.inputReg = parseInt(e.input2.value);
             break;
+        case undefined:
+            break;
         default:
             state.inputReg = instruction.setInput & 0xFF;
             break;
+    }
+    if (instruction.setShiftCounter !== undefined) {
+        state.sc = instruction.setShiftCounter;
+    }
+}
+
+export function executeJmp(instruction: JumpInstruction) {
+    if (instruction.signal === "jmp") {
+        if (instruction.line !== undefined) {
+            state.programCounter = instruction.line;
+        } 
+        if (instruction.skip !== undefined) {
+            state.programCounter += instruction.skip + 1;
+        }
+        return;
+    }
+    
+    let signal: boolean;
+    switch (instruction.signal) {
+        case "c-o":
+            signal = state.carryOut;
+            break;
+        case "sgn":
+            signal = state.sign;
+            break;
+        case "ak0":
+            signal = state.ak0;
+            break;
+        case "sc0":
+            signal = state.sc0;
+            break;
+        case "mq0":
+            signal = state.mq0;
+            break;
+    }
+
+    if (signal === (instruction.if ?? false)) {
+        if (instruction.line !== undefined) {
+            state.programCounter = instruction.line;
+        } 
+        if (instruction.skip !== undefined) {
+            state.programCounter += instruction.skip + 1;
+        }
+    } else {
+        state.programCounter++;
     }
 }
 
 export function executeALU() {
     if (state.writeAk) state.ak = state.aluResult;
 
-    if (state.shAk) {
+    if (state.shAk && state.shMQ) {
+        if (state.shl) {
+            state.ak = (state.ak << 1) & 0xFF;
+            state.ak = state.ak | ((state.mq & 0x80) >> 7);
+            state.mq = (state.mq << 1) & 0xFF;
+        } else {
+            state.mq = (state.mq >> 1) & 0xFF;
+            state.mq = state.mq | ((state.ak & 1) << 7);
+            state.ak = (state.ak >> 1) & 0xFF;
+        }
+    } else if (state.shAk) {
         if (state.shl) {
             state.ak = (state.ak << 1) & 0xFF;
         } else {
             state.ak = (state.ak >> 1) & 0xFF;
         }
-    }
-    if (state.shMQ) {
+    } else if (state.shMQ) {
         if (state.shl) {
             state.mq = (state.mq << 1) & 0xFF;
         } else {
@@ -76,11 +135,7 @@ export function executeALU() {
         }
     }
     if (state.shAk || state.shMQ) {
-        if (state.shl) {
-            state.sc--;
-        } else {
-            state.sc++;
-        }
+        state.sc--;
     }
 
     if (state.oneMQ0) {
