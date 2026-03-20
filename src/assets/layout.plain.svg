@@ -1440,16 +1440,16 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        x="26.378017"
        y="21.212828"
-       id="text46"><tspan
+       id="shl-shr"><tspan
          sodipodi:role="line"
          id="tspan46"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
          x="26.378017"
          y="21.212828"> <tspan
    style="fill:#00ff00"
-   id="tspan38">shl</tspan>/<tspan
+   id="tspan-shl">shl</tspan>/<tspan
    style="fill:#ff0000"
-   id="tspan39">shr</tspan></tspan></text>
+   id="tspan-shr">shr</tspan></tspan></text>
     <path
        style="font-variation-settings:'opsz' 32;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="m 23.476772,20.006128 v 2.6316 h 2.901245"

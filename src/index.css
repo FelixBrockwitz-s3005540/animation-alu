@@ -75,3 +75,10 @@ svg .number-display,
 svg .number-display * {
     font-family: var(--mono) !important;
 }
+
+svg text#shl-shr tspan#tspan-shl {
+    fill: #0f0 !important;
+}
+svg text#shl-shr tspan#tspan-shr {
+    fill: #f00 !important;
+}

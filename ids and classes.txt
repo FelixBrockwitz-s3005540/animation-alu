@@ -40,6 +40,10 @@ id:
     sc-0
     mq-0
 
+    shl-shr
+    tspan-shl
+    tspan-shr
+
 classes:
     binary-display
     number-display
