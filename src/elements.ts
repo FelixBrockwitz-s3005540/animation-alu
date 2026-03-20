@@ -1,3 +1,9 @@
+export const startButton = document.getElementById("start-program") as HTMLButtonElement;
+export const stepButton = document.getElementById("step") as HTMLButtonElement;
+
+export const input1 = document.getElementById("in1") as HTMLInputElement;
+export const input2 = document.getElementById("in2") as HTMLInputElement;
+
 export let svg: SVGSVGElement;
 
 export let inputRegister: SVGGElement;

@@ -1,8 +1,10 @@
 import svg from "./assets/layout.plain.svg?raw";
-import { calcAlu } from "./calculate";
+import program from "./assets/AddInt.json?url";
+import { calculateAlu, executeLine } from "./calculate";
 import * as e from "./elements";
 import state from "./state";
 import { bitString, floatToInt, toBits } from "./utils";
+import type { Program } from "./instructions";
 
 function setWireState(el: SVGElement, s: boolean | undefined) {
     switch (s) {
@@ -121,6 +123,25 @@ async function init() {
 
     colorWires();
     drawNumbers();
+
+    e.startButton.addEventListener("click", async () => {
+        const response = await fetch(program);
+        const json = await response.text();
+        const parsed = JSON.parse(json) as Program;
+        state.programName = parsed.name;
+        state.executionUnit = parsed.unit;
+        state.program = parsed.instructions;
+        state.programCounter = 0;
+    });
+    e.startButton.click();
+
+    e.stepButton.addEventListener("click", () => {
+        console.log(state.programCounter);
+        console.log(state.program![state.programCounter]);
+        executeLine(state.programCounter);
+        colorWires();
+        drawNumbers();
+    });
 }
 
 await init();

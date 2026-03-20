@@ -1,0 +1,12 @@
+{
+    "$schema": "./program.schema.json",
+    "name": "AddInt",
+    "unit": "int",
+    "instructions": [
+        { "type": "alu", "rsAk": true, "rsMQ": true, "rsSC": true},
+        { "type": "mem", "setInput": "in1" },
+        { "type": "alu", "wrAk": true},
+        { "type": "mem", "setInput": "in2" },
+        { "type": "alu", "wrAk": true }
+    ]
+}

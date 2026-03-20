@@ -1,6 +1,11 @@
+import type { Instruction } from "./instructions";
 import { toBits } from "./utils";
 
 const state = {
+    program: undefined as Instruction[] | undefined,
+    programName: undefined as string | undefined,
+    executionUnit: "int" as "int" | "float",
+    shownInput: false,
     programCounter: 0,
 
     inputReg: 3,
