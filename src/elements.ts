@@ -1,5 +1,14 @@
 export let svg: SVGSVGElement;
 
+export let inputRegister: SVGGElement;
+export let outputDisplay: SVGGElement;
+export let akku: SVGGElement;
+export let mqRegister: SVGGElement;
+
+export let akADisplay: SVGTextElement;
+export let akCDisplay: SVGTextElement;
+export let shiftCounterCount: SVGTextElement;
+
 export let inputA: SVGPathElement;
 export let inputB: SVGPathElement;
 export let carryIn: SVGPathElement;
@@ -32,6 +41,15 @@ export let mq0: SVGPathElement;
 
 export function loadElements() {
     svg = document.querySelector<SVGSVGElement>("#svg1")!;
+
+    inputRegister = document.getElementById("input-register") as any;
+    outputDisplay = document.getElementById("output-display") as any;
+    akku = document.getElementById("akku") as any;
+    mqRegister = document.getElementById("mq-register") as any;
+
+    akADisplay = document.getElementById("alu-a") as any;
+    akCDisplay = document.getElementById("alu-c") as any;
+    shiftCounterCount = document.getElementById("shift-counter-count") as any;
 
     inputA  = document.getElementById("input-a") as any;
     inputB  = document.getElementById("input-b") as any;

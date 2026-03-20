@@ -174,7 +174,7 @@
            y="1.6032374">Input Register</tspan></text>
       <g
          id="g10"
-         class="binary-display"
+         class="binary-display number-display"
          transform="matrix(0.77541519,0,0,1,2.5952025,-1.2515575)">
         <rect
            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
@@ -372,7 +372,7 @@
            y="1.6032374">Output Display</tspan></text>
       <g
          id="g10-9"
-         class="binary-display"
+         class="binary-display number-display"
          transform="matrix(0.77541519,0,0,1,2.5952025,-1.2515575)">
         <rect
            style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
@@ -574,7 +574,7 @@
             id="tspan13" /></text>
       <g
          id="g10-5"
-         class="binary-display"
+         class="binary-display number-display"
          transform="matrix(0.77541519,0,0,1,2.5952025,-1.2515575)">
          <rect
             style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
@@ -772,7 +772,7 @@
             y="1.6032374">MQ-Register</tspan></text>
       <g
          id="g10-8"
-         class="binary-display"
+         class="binary-display number-display"
          transform="matrix(0.77541519,0,0,1,2.5952025,-1.2515575)">
          <rect
             style="fill:#c0c0c0;fill-opacity:1;stroke:#3a3a3a;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
@@ -1110,6 +1110,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#00ff00;stroke-width:0.132292;stroke-miterlimit:2"
          x="-1.978254"
          y="6.9256716"
+         class="number-display"
          id="shift-counter-count"><tspan
            id="tspan37"
            style="fill:#000000;stroke-width:0.132292"
@@ -1166,43 +1167,57 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.264583px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.132292;stroke-miterlimit:2"
-       x="4.4043183"
-       y="9.0415249"
+       x="3.8126891"
+       y="9.0304766"
+       class="number-display"
        id="alu-a"><tspan
          id="tspan28"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
-         x="4.4043183"
-         y="9.0415249"><tspan
+         x="3.8126891"
+         y="9.0304766"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
            id="tspan36">1</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
-           id="tspan35">00</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
-           id="tspan34">11</tspan><tspan
+           id="tspan35">1</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
-           id="tspan33">00</tspan><tspan
+           id="tspan35">1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
+           id="tspan35">1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
+           id="tspan35">1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
+           id="tspan35">1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
+           id="tspan34">1</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
            id="tspan32">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.264583px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.132292;stroke-miterlimit:2"
-       x="4.4536247"
-       y="16.454105"
+       x="3.8126891"
+       y="16.268566"
+       class="number-display"
        id="alu-c"><tspan
          id="tspan28-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
-         x="4.4536247"
-         y="16.454105"><tspan
+         x="3.8126891"
+         y="16.268566"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
-           id="tspan36-4">1</tspan><tspan
+           id="tspan36">1</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
-           id="tspan35-9">00</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
-           id="tspan34-0">11</tspan><tspan
+           id="tspan35">1</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
-           id="tspan33-9">00</tspan><tspan
+           id="tspan35">1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
+           id="tspan35">1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
+           id="tspan35">1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
+           id="tspan35">1</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
-           id="tspan32-1">1</tspan></tspan></text>
+           id="tspan34">1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
+           id="tspan32">1</tspan></tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 24.266744,17.830055 h 2.111272"

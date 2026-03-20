@@ -61,12 +61,17 @@ svg path:not(marker path) {
     stroke: var(--text-h) !important;
 }
 
-svg #layer1 > text,
-svg #layer1 > text *,
+svg #layer1 > text:not(#alu-a, #alu-c),
+svg #layer1 > text:not(#alu-a, #alu-c) *,
 svg #or-gate text * {
     fill: var(--text-h) !important;
 }
 
-svg #layer1 > g > rect {
+svg #or-gate > rect {
     stroke: var(--text-h) !important;
+}
+
+svg .number-display,
+svg .number-display * {
+    font-family: var(--mono) !important;
 }

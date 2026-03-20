@@ -10,3 +10,11 @@ export function toBits(int: number, numBits: number): boolean[] {
     }
     return bits;
 }
+
+export function bitString(bits: boolean[]): string {
+    let str = "";
+    for (const bit of bits) {
+        str = (bit ? "1" : "0") + str;
+    }
+    return str;
+}

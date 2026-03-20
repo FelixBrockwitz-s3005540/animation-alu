@@ -42,3 +42,4 @@ id:
 
 classes:
     binary-display
+    number-display

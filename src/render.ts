@@ -1,7 +1,8 @@
 import svg from "./assets/layout.plain.svg?raw";
+import { calcAlu } from "./calculate";
 import * as e from "./elements";
 import state from "./state";
-import { floatToInt, toBits } from "./utils";
+import { bitString, floatToInt, toBits } from "./utils";
 
 function setWireState(el: SVGElement, s: boolean | undefined) {
     switch (s) {
@@ -62,12 +63,64 @@ function colorWires() {
     setWireState(e.mq0, state.mq0);
 }
 
+function coloredNumberString(e: SVGTextElement, num: number) {
+    const str = bitString(toBits(num, 8));
+    for (let i = 0; i < 8; i++) {
+        const span: SVGTSpanElement = e.firstElementChild!.children[i] as any;
+        span.textContent = str[i]!;
+        if (str[i] === "1") {
+            span.classList.add("true");
+            span.classList.remove("false");
+        } else {
+            span.classList.remove("true");
+            span.classList.add("false");
+        }
+    }
+}
+
+function numberedBoxes(e: SVGGElement, num: number) {
+    const bits = toBits(num, 8);
+
+    const texts = Array.from(e.querySelectorAll<SVGTextElement>(".binary-display text"))
+        .sort((a,b) => b.x.baseVal.getItem(0).value - a.x.baseVal.getItem(0).value);
+
+    for (let i = 0; i < 8; i++) {
+        const span: SVGTSpanElement = texts[i]!.firstElementChild as any;
+        if (bits[i]) {
+            span.textContent = "1";
+            span.classList.add("true");
+            span.classList.remove("false");
+        } else {
+            span.textContent = "0";
+            span.classList.remove("true");
+            span.classList.add("false");
+        }
+    }
+}
+
+function drawNumbers() {
+    e.shiftCounterCount.querySelector<SVGTSpanElement>("tspan")!.textContent = state.sc.toString();
+
+    coloredNumberString(e.akADisplay, state.ak);
+    coloredNumberString(e.akCDisplay, state.aluResult);
+
+    numberedBoxes(e.inputRegister, state.inputReg);
+    numberedBoxes(e.outputDisplay, state.ak);
+    numberedBoxes(e.akku, state.ak);
+    numberedBoxes(e.mqRegister, state.mq);
+}
+
+function shiftBits() {
+
+}
+
 async function init() {
     document.getElementById("svg-target")!.innerHTML = svg;
 
     e.loadElements();
 
     colorWires();
+    drawNumbers();
 }
 
 await init();

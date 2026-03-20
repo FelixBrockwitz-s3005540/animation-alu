@@ -1,17 +1,17 @@
-:not(circle).true {
-    stroke: #0f0 !important;
-}
-
-circle.true {
+:not(path).true {
     fill: #0f0 !important;
 }
 
-:not(circle).false {
-    stroke: #f00 !important;
+path.true {
+    stroke: #0f0 !important;
 }
 
-circle.false {
+:not(path).false {
     fill: #f00 !important;
+}
+
+path.false {
+    stroke: #f00 !important;
 }
 
 #akku-mq:not(.true, .false) {
