@@ -56,3 +56,17 @@ svg {
     height: 96%;
     left: 2%;
 }
+
+svg path:not(marker path) {
+    stroke: var(--text-h) !important;
+}
+
+svg #layer1 > text,
+svg #layer1 > text *,
+svg #or-gate text * {
+    fill: var(--text-h) !important;
+}
+
+svg #layer1 > g > rect {
+    stroke: var(--text-h) !important;
+}

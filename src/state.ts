@@ -15,8 +15,8 @@ const state = {
     invC: false,
 
     writeAk: false,
-    shAk: false,
-    shMQ: false,
+    shAk: true,
+    shMQ: true,
     resetMQ: false,
     shl: false,
     resetAk: false,

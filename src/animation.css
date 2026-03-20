@@ -1,7 +1,19 @@
-.true {
-    color: greenyellow;
+:not(circle).true {
+    stroke: #0f0 !important;
 }
 
-.false {
-    color: red;
+circle.true {
+    fill: #0f0 !important;
+}
+
+:not(circle).false {
+    stroke: #f00 !important;
+}
+
+circle.false {
+    fill: #f00 !important;
+}
+
+#akku-mq:not(.true, .false) {
+    stroke: #888 !important;
 }

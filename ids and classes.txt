@@ -8,6 +8,7 @@ id:
     alu-c
     shift-counter
     shift-counter-count
+    or-gate
 
     input-a
     input-b

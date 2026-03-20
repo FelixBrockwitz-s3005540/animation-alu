@@ -3,48 +3,63 @@ import * as e from "./elements";
 import state from "./state";
 import { floatToInt, toBits } from "./utils";
 
-const trueColor = "rgb(0,255,0)";
-const falseColor = "rgb(255,0,0)";
+function setWireState(el: SVGElement, s: boolean | undefined) {
+    switch (s) {
+        case undefined:
+            el.classList.remove("true", "false");
+            break;
+
+        case true:
+            el.classList.remove("false");
+            el.classList.add("true");
+            break;
+        
+        case false:
+            el.classList.add("false");
+            el.classList.remove("true");
+            break;
+    }
+}
 
 function colorWires() {
-    e.inputA.style.stroke = (state.invA) ? trueColor : falseColor;
-    e.inputB.style.stroke = (state.invB) ? trueColor : falseColor;
-    e.carryIn.style.stroke = (state.carryIn) ? trueColor : falseColor;
-    e.inputC.style.stroke = (state.invC) ? trueColor : falseColor;
+    setWireState(e.inputA, state.invA);
+    setWireState(e.inputB, state.invB);
+    setWireState(e.carryIn, state.carryIn);
+    setWireState(e.inputC, state.invC);
 
-    e.writeAk.style.stroke = (state.writeAk) ? trueColor : falseColor;
-    e.shAk1.style.stroke = (state.shAk) ? trueColor : falseColor;
-    e.shAk2.style.stroke = (state.shAk) ? trueColor : falseColor;
-    e.shAk3.style.fill = (state.shAk) ? trueColor : falseColor;
-    e.shMQ1.style.stroke = (state.shMQ) ? trueColor : falseColor;
-    e.shMQ2.style.stroke = (state.shMQ) ? trueColor : falseColor;
-    e.shMQ3.style.fill = (state.shMQ) ? trueColor : falseColor;
-    e.resetMQ.style.stroke = (state.resetMQ) ? trueColor : falseColor;
-    e.shl1.style.stroke = (state.shl) ? trueColor : falseColor;
-    e.shl2.style.stroke = (state.shl) ? trueColor : falseColor;
-    e.shl3.style.fill = (state.shl) ? trueColor : falseColor;
-    e.resetAk.style.stroke = (state.resetAk) ? trueColor : falseColor;
-    e.oneMQ0.style.stroke = (state.oneMQ0) ? trueColor : falseColor;
-    e.resetSC.style.stroke = (state.resetSC) ? trueColor : falseColor;
+    setWireState(e.writeAk, state.writeAk);
+    setWireState(e.shAk1, state.shAk);
+    setWireState(e.shAk2, state.shAk);
+    setWireState(e.shAk3, state.shAk);
+    setWireState(e.shMQ1, state.shMQ);
+    setWireState(e.shMQ2, state.shMQ);
+    setWireState(e.shMQ3, state.shMQ);
+    setWireState(e.resetMQ, state.resetMQ);
+    setWireState(e.shl1, state.shl);
+    setWireState(e.shl2, state.shl);
+    setWireState(e.shl3, state.shl);
+    setWireState(e.resetAk, state.resetAk);
+    setWireState(e.oneMQ0, state.oneMQ0);
+    setWireState(e.resetSC, state.resetSC);
 
-    e.scClk.style.stroke = (state.shAk || state.shMQ) ? trueColor : falseColor;
+    setWireState(e.scClk, state.shAk || state.shMQ);
 
     if (state.shAk && state.shMQ) {
         if (state.shl) {
-            e.akMQ.style.stroke = (toBits(state.mq, 8)[7]) ? trueColor : falseColor;
+            setWireState(e.akMQ, toBits(state.mq, 8)[7]);
         } else {
-            e.akMQ.style.stroke = (toBits(state.ak, 8)[0]) ? trueColor : falseColor;
+            setWireState(e.akMQ, toBits(state.ak, 8)[0]);
         }
     } else {
-        e.akMQ.style.stroke = "black"
+        setWireState(e.akMQ, undefined);
     }
 
-    e.carryOut1.style.stroke = (state.carryOut) ? trueColor : falseColor;
-    e.carryOut2.style.stroke = (state.carryOut) ? trueColor : falseColor;
-    e.sign.style.stroke = (state.sign) ? trueColor : falseColor;
-    e.ak0.style.stroke = (state.ak0) ? trueColor : falseColor;
-    e.sc0.style.stroke = (state.sc0) ? trueColor : falseColor;
-    e.mq0.style.stroke = (state.mq0) ? trueColor : falseColor;
+    setWireState(e.carryOut1, state.carryOut);
+    setWireState(e.carryOut2, state.carryOut);
+    setWireState(e.sign, state.sign);
+    setWireState(e.ak0, state.ak0);
+    setWireState(e.sc0, state.sc0);
+    setWireState(e.mq0, state.mq0);
 }
 
 async function init() {
