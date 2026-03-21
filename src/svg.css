@@ -1,0 +1,31 @@
+svg {
+    width: 96%;
+    height: 96%;
+    left: 2%;
+}
+
+svg path:not(marker path) {
+    stroke: var(--text-h) !important;
+}
+
+svg #layer1 > text:not(#alu-a, #alu-c),
+svg #layer1 > text:not(#alu-a, #alu-c) *,
+svg #or-gate text * {
+    fill: var(--text-h) !important;
+}
+
+svg #or-gate > rect {
+    stroke: var(--text-h) !important;
+}
+
+svg .number-display,
+svg .number-display * {
+    font-family: var(--mono) !important;
+}
+
+svg text#shl-shr tspan#tspan-shl {
+    fill: #0f0 !important;
+}
+svg text#shl-shr tspan#tspan-shr {
+    fill: #f00 !important;
+}

@@ -1,6 +1,7 @@
-export interface Instruction {
-    type: "mem" | "jmp" | "alu";
-}
+export type Instruction =
+    | MemoryInstruction
+    | JumpInstruction
+    | ALUInstruction;
 
 export interface MemoryInstruction extends Instruction {
     type: "mem";
@@ -27,7 +28,7 @@ export interface ALUInstruction extends Instruction {
     shAk?: boolean;
     shMQ?: boolean;
     rsMQ?: boolean;
-    shL?: boolean;
+    sh_L?: boolean;
     rsAk?: boolean;
     sMQ0?: boolean;
     rsSC?: boolean;

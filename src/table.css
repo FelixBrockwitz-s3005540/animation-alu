@@ -1,0 +1,38 @@
+#table-wrapper {
+    position: relative;
+}
+
+#row-highlight {
+    position: absolute;
+    background-color: greenyellow;
+    opacity: 0.2;
+    left: 0;
+    right: 0;
+    height: 0;
+
+    transition:
+        top 0.25s ease, 
+        height 0.25s ease;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: solid 1px var(--border);
+
+    & > * {
+        border-right: solid 1px var(--border);
+        padding: 0 1px;
+    }
+
+    & > *:first-child {
+        border-left: solid 1px var(--border);
+    }
+}
+
+table th {
+    white-space: nowrap;
+    font-size: 75%;
+}

@@ -69,7 +69,7 @@
                 "shAk": { "type": "boolean", "default": false },
                 "shMQ": { "type": "boolean", "default": false },
                 "rsMQ": { "type": "boolean", "default": false },
-                "shL":  { "type": "boolean", "default": false },
+                "sh_L":  { "type": "boolean", "default": false },
                 "rsAk": { "type": "boolean", "default": false },
                 "sMQ0": { "type": "boolean", "default": false },
                 "rsSC": { "type": "boolean", "default": false },

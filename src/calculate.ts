@@ -5,15 +5,14 @@ import * as e from "./elements";
 export function executeLine(line: number) {
     const instruction = state.program![line];
     if (!instruction) {
-        console.log("halted");
-        console.log("result: " + state.ak);
+        e.output.value = state.ak.toString();
         return;
     }
 
     switch (instruction.type) {
         case "mem":
             if (state.shownInput) {
-                executeMem(instruction as MemoryInstruction);
+                executeMem(instruction);
                 state.programCounter++;
                 state.shownInput = false;
             } else {
@@ -24,7 +23,7 @@ export function executeLine(line: number) {
 
         case "jmp":
             if (state.shownInput) {
-                executeJmp(instruction as JumpInstruction);
+                executeJmp(instruction);
                 state.shownInput = false;
             } else {
                 setInputs({ type: "alu"});
@@ -38,13 +37,17 @@ export function executeLine(line: number) {
                 state.programCounter++;
                 state.shownInput = false;
             } else {
-                setInputs(instruction as ALUInstruction);
+                setInputs(instruction);
                 state.shownInput = true;
             }
             break;
     }
 
     state.aluResult = calculateAlu();
+
+    if (state.programCounter >= state.program!.length) {
+        e.output.value = state.ak.toString();
+    }
 }
 
 export function executeMem(instruction: MemoryInstruction) {
@@ -72,7 +75,11 @@ export function executeJmp(instruction: JumpInstruction) {
             state.programCounter = instruction.line;
         } 
         if (instruction.skip !== undefined) {
-            state.programCounter += instruction.skip + 1;
+            if (instruction.skip < 0) {
+                state.programCounter -= instruction.skip;
+            } else {
+                state.programCounter += instruction.skip + 1;
+            }
         }
         return;
     }
@@ -163,7 +170,7 @@ export function setInputs(instruction: ALUInstruction) {
     state.shAk = instruction.shAk ?? false;
     state.shMQ = instruction.shMQ ?? false;
     state.resetMQ = instruction.rsMQ ?? false;
-    state.shl = instruction.shL ?? false;
+    state.shl = instruction.sh_L ?? false;
     state.resetAk = instruction.rsAk ?? false;
     state.oneMQ0 = instruction.sMQ0 ?? false;
     state.resetSC = instruction.rsSC ?? false;

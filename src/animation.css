@@ -17,3 +17,10 @@ path.false {
 #akku-mq:not(.true, .false) {
     stroke: #888 !important;
 }
+
+.true {
+    color: #0f0;
+}
+.false {
+    color: #f00;
+}

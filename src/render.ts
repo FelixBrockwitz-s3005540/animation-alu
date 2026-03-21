@@ -1,10 +1,7 @@
 import svg from "./assets/layout.plain.svg?raw";
-import program from "./assets/MultiplyInt.json?url";
-import { calculateAlu, executeLine } from "./calculate";
 import * as e from "./elements";
 import state from "./state";
-import { bitString, floatToInt, toBits } from "./utils";
-import type { Program } from "./instructions";
+import { bitString, toBits } from "./utils";
 
 function setWireState(el: SVGElement, s: boolean | undefined) {
     switch (s) {
@@ -116,32 +113,112 @@ function shiftBits() {
 
 }
 
-async function init() {
-    document.getElementById("svg-target")!.innerHTML = svg;
-
-    e.loadElements();
-
-    colorWires();
-    drawNumbers();
-
-    e.startButton.addEventListener("click", async () => {
-        const response = await fetch(program);
-        const json = await response.text();
-        const parsed = JSON.parse(json) as Program;
-        state.programName = parsed.name;
-        state.executionUnit = parsed.unit;
-        state.program = parsed.instructions;
-        state.programCounter = 0;
-    });
-    e.startButton.click();
-
-    e.stepButton.addEventListener("click", () => {
-        console.log(state.programCounter);
-        console.log(state.program![state.programCounter]);
-        executeLine(state.programCounter);
-        colorWires();
-        drawNumbers();
-    });
+function createTableBit(state: boolean): HTMLTableCellElement {
+    const cell = document.createElement("td");
+    cell.textContent = state ? "1" : "0";
+    cell.classList.add(state ? "true" : "false");
+    return cell;
 }
 
-await init();
+function createSpan(text: string, color?: string): HTMLSpanElement {
+    const span = document.createElement("span");
+    span.textContent = text;
+    if (color) span.style.color = color;
+    return span;
+}
+
+export function positionRowHighlight() {
+    const row = e.programTableBody.children[state.programCounter + 1] as HTMLTableRowElement;
+    const wrapperRect = e.programTableWrapper.getBoundingClientRect();
+    const rect = row.getBoundingClientRect();
+
+    e.rowHighlight.style.top = (rect.top - wrapperRect.top) + "px";
+    e.rowHighlight.style.height = rect.height + "px";
+}
+
+export function renderProgram() {
+    e.programTableBody.replaceChildren(e.programTableBody.firstElementChild!);
+
+    for (let i = 0; i < state.program!.length; i++) {
+        const instruction = state.program![i]!;
+
+        const row = document.createElement("tr");
+        const line = document.createElement("td");
+        line.textContent = i.toString();
+        row.appendChild(line);
+
+        if (instruction.type === "alu") {
+            row.appendChild(createTableBit(instruction.invA ?? false));
+            row.appendChild(createTableBit(instruction.invB ?? false));
+            row.appendChild(createTableBit(instruction.caIn ?? false));
+            row.appendChild(createTableBit(instruction.invC ?? false));
+            row.appendChild(createTableBit(instruction.wrAk ?? false));
+            row.appendChild(createTableBit(instruction.shAk ?? false));
+            row.appendChild(createTableBit(instruction.sMQ0 ?? false));
+            row.appendChild(createTableBit(instruction.rsMQ ?? false));
+            row.appendChild(createTableBit(instruction.sh_L ?? false));
+            row.appendChild(createTableBit(instruction.rsAk ?? false));
+            row.appendChild(createTableBit(instruction.sMQ0 ?? false));
+            row.appendChild(createTableBit(instruction.rsSC ?? false));
+        }
+        if (instruction.type === "jmp") {
+            const text = document.createElement("td");
+            text.colSpan = 12;
+            text.appendChild(createSpan("jmp"));
+
+            if (instruction.line !== undefined) {
+                text.appendChild(createSpan(" " + instruction.line.toString(), "var(--accent)"));
+            }
+            if (instruction.skip !== undefined) {
+                text.appendChild(createSpan(" ~" + instruction.skip.toString(), "var(--accent)"));
+            }
+
+            if (instruction.signal !== "jmp") {
+                text.appendChild(createSpan(" if "));
+                text.appendChild(createSpan(instruction.signal, "var(--accent)"));
+                text.appendChild(createSpan(" is "));
+                text.appendChild(createSpan(instruction.if ? "true" : "false", "var(--accent)"));
+            }
+
+            row.appendChild(text);
+        }
+        if (instruction.type === "mem") {
+            const text = document.createElement("td");
+            text.colSpan = 12;
+            text.appendChild(createSpan("mem"));
+            if (instruction.setInput !== undefined) {
+                text.appendChild(createSpan(" Input="));
+                text.appendChild(createSpan(instruction.setInput.toString(), "var(--accent)"));
+            }
+            if (instruction.setShiftCounter !== undefined) {
+                text.appendChild(createSpan(" ShiftCounter="));
+                text.appendChild(createSpan(instruction.setShiftCounter.toString(), "var(--accent)"));
+            }
+            row.appendChild(text);
+        }
+
+        e.programTableBody.appendChild(row);
+    }
+
+    const haltRow = document.createElement("tr");
+    haltRow.appendChild(document.createElement("td"));
+    const halt = document.createElement("td");
+    halt.colSpan = 12;
+    halt.appendChild(createSpan("Halt", "red"));
+    haltRow.appendChild(halt);
+    e.programTableBody.appendChild(haltRow);
+
+    positionRowHighlight();
+}
+
+export function render() {
+    colorWires();
+    drawNumbers();
+}
+
+export async function init() {
+    document.getElementById("svg-target")!.innerHTML = svg;
+    e.loadElements();
+
+    render();
+}

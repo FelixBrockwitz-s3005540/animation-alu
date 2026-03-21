@@ -1,8 +1,17 @@
-export const startButton = document.getElementById("start-program") as HTMLButtonElement;
+export const resetButton = document.getElementById("reset-program") as HTMLButtonElement;
 export const stepButton = document.getElementById("step") as HTMLButtonElement;
+
+export const circuitSelect = document.getElementById("circuit") as HTMLSelectElement;
+export const programSelect = document.getElementById("program") as HTMLSelectElement;
 
 export const input1 = document.getElementById("in1") as HTMLInputElement;
 export const input2 = document.getElementById("in2") as HTMLInputElement;
+export const output = document.getElementById("out") as HTMLInputElement;
+
+export const programTableWrapper = document.getElementById("table-wrapper") as HTMLDivElement;
+export const programTable = document.getElementById("program-table") as HTMLTableElement;
+export const programTableBody = programTable.querySelector<HTMLTableSectionElement>("tbody")!;
+export const rowHighlight = document.getElementById("row-highlight") as HTMLDivElement;
 
 export let svg: SVGSVGElement;
 
