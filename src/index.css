@@ -52,16 +52,26 @@
 }
 
 body {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 main {
-    width: 80%;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 aside {
-    position: absolute;
-    right: 0;
-    top: 0;
+    flex-shrink: 0;
+    flex-grow: 0;
     background-color: var(--bg);
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#play-speed-value {
+    width: 5ch;
 }

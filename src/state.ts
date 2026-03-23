@@ -5,7 +5,9 @@ const state = {
     program: undefined as Instruction[] | undefined,
     programName: undefined as string | undefined,
     executionUnit: "int" as "int" | "float",
-    shownInput: false,
+    playInterval: undefined as number | undefined,
+    playIntervalValue: 500,
+    breakPoints: new Set<number>(),
     programCounter: 0,
 
     inputReg: 3,

@@ -14,7 +14,7 @@
         <main>
             <menu type="toolbar">
                 <button id="help">Help</button>
-                <label for="ciruit">
+                <label for="circuit">
                     Executing Circuit:
                     <select id="circuit">
                         <option value="int" selected>8-Bit Integer</option>
@@ -24,9 +24,9 @@
                 <label for="program">
                     Program:
                     <select id="program">
-                        <option value="/dist/AddInt.json">Addition</option>
+                        <option value="/dist/AddInt.json" selected>Addition</option>
                         <option value="/dist/SubInt.json">Subtraction</option>
-                        <option value="/dist/MultiplyInt.json" selected>Multiplication</option>
+                        <option value="/dist/MultiplyInt.json">Multiplication</option>
                     </select>
                 </label>
                 <label for="in1">Input 1: <input id="in1" type="number" value="10"></label>
@@ -40,6 +40,12 @@
             <menu type="toolbar">
                 <button id="reset-program">Reset</button>
                 <button id="step">Step</button>
+                <button id="play-pause">Play</button>
+                <label for="play-speed-value" title="ms/Instruction">
+                    Interval: 
+                    <input type="range" id="play-speed-range" min="10" max="2000" step="10" value="500">
+                    <input type="number" id="play-speed-value" min="1" value="500" step="1">
+                </label>
             </menu>
             <div id="table-wrapper">
                 <div id="row-highlight"></div>
@@ -58,7 +64,7 @@
                         
                         <th>sh-L</th>
                         <th>rs<sub>Ak</sub></th>
-                        <th>sMQ0</th>
+                        <th>sMQ<sub>0</sub></th>
                         <th>rs<sub>sc</sub></th>
                     </tr>
                     <tr></tr>

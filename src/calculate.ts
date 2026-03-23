@@ -6,47 +6,45 @@ export function executeLine(line: number) {
     const instruction = state.program![line];
     if (!instruction) {
         e.output.value = state.ak.toString();
+        if (state.playInterval !== undefined) {
+            e.playButton.click();
+        }
         return;
     }
 
     switch (instruction.type) {
         case "mem":
-            if (state.shownInput) {
-                executeMem(instruction);
-                state.programCounter++;
-                state.shownInput = false;
-            } else {
-                setInputs({ type: "alu"});
-                state.shownInput = true;
-            }
+            executeMem(instruction);
+            state.programCounter++;
             break;
 
         case "jmp":
-            if (state.shownInput) {
-                executeJmp(instruction);
-                state.shownInput = false;
-            } else {
-                setInputs({ type: "alu"});
-                state.shownInput = true;
-            }
+            executeJmp(instruction);
             break;
     
         case "alu":
-            if (state.shownInput) {
-                executeALU();
-                state.programCounter++;
-                state.shownInput = false;
-            } else {
-                setInputs(instruction);
-                state.shownInput = true;
-            }
+            executeALU();
+            state.programCounter++;
             break;
     }
 
     state.aluResult = calculateAlu();
 
+    
     if (state.programCounter >= state.program!.length) {
         e.output.value = state.ak.toString();
+    } else {
+        const nextInstruction = state.program![state.programCounter]!;
+
+        if (nextInstruction.type === "alu") {
+            setInputs(nextInstruction);
+        } else {
+            setInputs({ type: "alu" });
+        }
+
+        if (state.breakPoints.has(state.programCounter) && state.playInterval !== undefined) {
+            e.playButton.click();
+        }
     }
 }
 

@@ -1,5 +1,7 @@
 #table-wrapper {
     position: relative;
+    overflow: auto;
+    width: fit-content;
 }
 
 #row-highlight {
@@ -9,10 +11,15 @@
     left: 0;
     right: 0;
     height: 0;
+    pointer-events: none;
 
     transition:
         top 0.25s ease, 
         height 0.25s ease;
+}
+
+#row-highlight.instant {
+    transition: none;
 }
 
 table {
@@ -21,6 +28,12 @@ table {
 
 table tr {
     border-bottom: solid 1px var(--border);
+
+    &:first-child {
+        position: sticky;
+        top: 0;
+        background-color: var(--bg);
+   }
 
     & > * {
         border-right: solid 1px var(--border);
@@ -35,4 +48,8 @@ table tr {
 table th {
     white-space: nowrap;
     font-size: 75%;
+}
+
+table td.breakpoint {
+    background-color: darkred;
 }

@@ -1,5 +1,8 @@
 export const resetButton = document.getElementById("reset-program") as HTMLButtonElement;
 export const stepButton = document.getElementById("step") as HTMLButtonElement;
+export const playButton = document.getElementById("play-pause") as HTMLButtonElement;
+export const playSpeedRange = document.getElementById("play-speed-range") as HTMLInputElement;
+export const playSpeedValue = document.getElementById("play-speed-value") as HTMLInputElement;
 
 export const circuitSelect = document.getElementById("circuit") as HTMLSelectElement;
 export const programSelect = document.getElementById("program") as HTMLSelectElement;
@@ -54,7 +57,7 @@ export let ak0: SVGPathElement;
 export let sc0: SVGPathElement;
 export let mq0: SVGPathElement;
 
-export function loadElements() {
+export function loadElementsInt() {
     svg = document.querySelector<SVGSVGElement>("#svg1")!;
 
     inputRegister = document.getElementById("input-register") as any;

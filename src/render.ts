@@ -109,7 +109,7 @@ function drawNumbers() {
     numberedBoxes(e.mqRegister, state.mq);
 }
 
-function shiftBits() {
+function shiftBitsAnimation() {
 
 }
 
@@ -129,11 +129,32 @@ function createSpan(text: string, color?: string): HTMLSpanElement {
 
 export function positionRowHighlight() {
     const row = e.programTableBody.children[state.programCounter + 1] as HTMLTableRowElement;
-    const wrapperRect = e.programTableWrapper.getBoundingClientRect();
-    const rect = row.getBoundingClientRect();
 
-    e.rowHighlight.style.top = (rect.top - wrapperRect.top) + "px";
-    e.rowHighlight.style.height = rect.height + "px";
+    e.rowHighlight.style.top = row.offsetTop + "px";
+    e.rowHighlight.style.height = row.offsetHeight + "px";
+
+    if (state.playIntervalValue <= 100) {
+        row.scrollIntoView({
+            behavior: "instant",
+            block: "center",
+        });
+    } else {
+        row.scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+        });
+    }
+}
+
+function toggleBreakpoint(ev: PointerEvent) {
+    const cell = ev.currentTarget as HTMLTableCellElement;
+    cell.classList.toggle("breakpoint");
+    const line = parseInt(cell.textContent);
+    if (state.breakPoints.has(line)) {
+        state.breakPoints.delete(line);
+    } else {
+        state.breakPoints.add(line);
+    }
 }
 
 export function renderProgram() {
@@ -154,7 +175,7 @@ export function renderProgram() {
             row.appendChild(createTableBit(instruction.invC ?? false));
             row.appendChild(createTableBit(instruction.wrAk ?? false));
             row.appendChild(createTableBit(instruction.shAk ?? false));
-            row.appendChild(createTableBit(instruction.sMQ0 ?? false));
+            row.appendChild(createTableBit(instruction.shMQ ?? false));
             row.appendChild(createTableBit(instruction.rsMQ ?? false));
             row.appendChild(createTableBit(instruction.sh_L ?? false));
             row.appendChild(createTableBit(instruction.rsAk ?? false));
@@ -204,9 +225,12 @@ export function renderProgram() {
     haltRow.appendChild(document.createElement("td"));
     const halt = document.createElement("td");
     halt.colSpan = 12;
-    halt.appendChild(createSpan("Halt", "red"));
+    halt.appendChild(createSpan("HALT", "red"));
     haltRow.appendChild(halt);
     e.programTableBody.appendChild(haltRow);
+
+    e.programTableBody.querySelectorAll<HTMLTableCellElement>("tr:not(:first-child, :last-child) td:first-child")
+        .forEach(e => { e.addEventListener("click", toggleBreakpoint) });
 
     positionRowHighlight();
 }
@@ -218,7 +242,15 @@ export function render() {
 
 export async function init() {
     document.getElementById("svg-target")!.innerHTML = svg;
-    e.loadElements();
+    e.loadElementsInt();
+
+    const aside = document.querySelector<HTMLElement>("aside")!
+    aside.style.width = (e.programTableWrapper.offsetWidth + 4) + "px";
+    const observer = new ResizeObserver(() => {
+        const aside = document.querySelector<HTMLElement>("aside")!
+        aside.style.width = (e.programTableWrapper.offsetWidth + 4) + "px";
+    });
+    observer.observe(e.programTableWrapper);
 
     render();
 }
