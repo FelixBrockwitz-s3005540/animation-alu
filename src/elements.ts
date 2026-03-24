@@ -17,6 +17,8 @@ export const programTable = document.getElementById("program-table") as HTMLTabl
 export const programTableBody = programTable.querySelector<HTMLTableSectionElement>("tbody")!;
 export const rowHighlight = document.getElementById("row-highlight") as HTMLDivElement;
 
+export const helpDialog = document.getElementById("help") as HTMLDialogElement; 
+
 export let svg: SVGSVGElement;
 
 export let inputRegister: SVGGElement;

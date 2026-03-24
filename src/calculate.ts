@@ -107,7 +107,11 @@ export function executeJmp(instruction: JumpInstruction) {
             state.programCounter = instruction.line;
         } 
         if (instruction.skip !== undefined) {
-            state.programCounter += instruction.skip + 1;
+            if (instruction.skip < 0) {
+                state.programCounter -= instruction.skip;
+            } else {
+                state.programCounter += instruction.skip + 1;
+            }
         }
     } else {
         state.programCounter++;

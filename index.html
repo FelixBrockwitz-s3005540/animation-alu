@@ -4,11 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script type="module" src="/src/index.ts"></script>
-        <link rel="stylesheet" href="/src/animation.css">
-        <link rel="stylesheet" href="/src/index.css">
-        <link rel="stylesheet" href="/src/table.css">
-        <link rel="stylesheet" href="/src/svg.css">
-        <link rel="stylesheet" href="/src/help.css">
+        <link rel="stylesheet" href="/src/css/animation.css">
+        <link rel="stylesheet" href="/src/css/index.css">
+        <link rel="stylesheet" href="/src/css/table.css">
+        <link rel="stylesheet" href="/src/css/svg.css">
+        <link rel="stylesheet" href="/src/css/help.css">
         <title>animation-alu</title>
     </head>
     <body>
@@ -25,10 +25,9 @@
                 <label for="program">
                     Program:
                     <select id="program">
-                        <option value="/dist/AddInt.json">Addition</option>
+                        <option value="/dist/AddInt.json" selected>Addition</option>
                         <option value="/dist/SubInt.json">Subtraction</option>
                         <option value="/dist/MultiplyInt.json">Multiplication</option>
-                        <option value="/dist/test.json" selected>Test</option>
                         <option value="custom">Custom</option>
                     </select>
                     <input type="file" id="program-upload" style="display: none;" accept=".json">
@@ -48,8 +47,8 @@
                 <button id="play-pause">Play</button>
                 <label for="play-speed-value" title="ms/Instruction">
                     Interval: 
-                    <input type="range" id="play-speed-range" min="10" max="2000" step="10" value="500">
-                    <input type="number" id="play-speed-value" min="1" value="500" step="1">
+                    <input type="range" id="play-speed-range" min="10" max="1000" step="10" value="500">
+                    <input type="text" id="play-speed-value" minlength="1" value="500" pattern="-?[1-9][0-9]*">
                 </label>
             </menu>
             <div id="table-wrapper">
@@ -81,15 +80,16 @@
         <dialog id="help">
             <div class="content">
                 <h1>Manual</h1>
-                <h2>Input Signals</h2>
-                The ALU is an binary addition circuit with a few extra options.
+                <h2 id="help-input-signals">Input Signals</h2>
+                The ALU is a ripple carry adder with a few extra options.
                 <div class="side-by-side">
                     <table>
                         <tr>
                             <th>A/~A</th>
                             <th>B/~B</th>
                             <th>Carry-In</th>
-                            <th>C/~C</th>
+                            <th>Flood-Carry</th>
+                            <th>OR instead<br>of XOR</th>
                             <th>Function</th>
                         </tr>
                         <tr>
@@ -97,119 +97,70 @@
                             <td style="color: red;">0</td>
                             <td style="color: red;">0</td>
                             <td style="color: red;">0</td>
-                            <td>Addition (A+B)</td>
+                            <td style="color: red;">0</td>
+                            <td>ADD<br>(A+B)</td>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">0</td>
+                            <td style="color: yellowgreen;">1</td>
+                            <td style="color: yellowgreen;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td>SUB<br>(A-B)</td>
+                        </tr>
+                        <tr>
+                            <td style="color: yellowgreen;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: yellowgreen;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td>SUB<br>(-A+B)</td>
                         </tr>
                         <tr>
                             <td style="color: red;">0</td>
                             <td style="color: red;">0</td>
                             <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td>Addition with Carry-In (A+B+1)</td>
+                            <td style="color: yellowgreen;">1</td>
+                            <td style="color: yellowgreen;">1</td>
+                            <td>NOR<br>(~[A|B])</td>
+                        </tr>
+                        <tr>
+                            <td style="color: yellowgreen;">1</td>
+                            <td style="color: yellowgreen;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: yellowgreen;">1</td>
+                            <td style="color: yellowgreen;">1</td>
+                            <td>AND<br>(A&B)</td>
                         </tr>
                         <tr>
                             <td style="color: red;">0</td>
+                            <td style="color: yellowgreen;">0</td>
                             <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
+                            <td style="color: yellowgreen;">0</td>
                             <td style="color: red;">0</td>
-                            <td></td>
+                            <td>XOR<br>(A^B)</td>
                         </tr>
                         <tr>
+                            <td style="color: yellowgreen;">1</td>
                             <td style="color: red;">0</td>
                             <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td></td>
+                            <td style="color: yellowgreen;">1</td>
+                            <td style="color: red;">0</td>
+                            <td>XOR<br>(A^B)</td>
                         </tr>
                         <tr>
-                            <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: red;">0</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td>Subtraction (A-B)</td>
-                        </tr>
-                        <tr>
-                            <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: red;">0</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td>Subtraction (B-A)</td>
-                        </tr>
-                        <tr>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: red;">0</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: red;">0</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td style="color: greenyellow;">1</td>
-                            <td></td>
+                            <td colspan="6">Other combinations are rarely used</td>
                         </tr>
                     </table>
                     <ul>
                         <li><code>A/~A</code> / <code>~A</code>: If A (Input) should be inverted bitwise</li>
                         <li><code>B/~B</code> / <code>~B</code>: If B (Akku) should be inverted bitwise</li>
                         <li><code>Carry-In</code> / <code>c-in</code>: If there should be a Carry-In</li>
-                        <li><code>C/~C</code> / <code>~C</code>: If C (Output) should be inverted bitwise</li>
+                        <li><code>Flood-Carry</code> / <code>flca</code>: Forces all carrys to be 1</li>
+                        <li>
+                            <code>OR/XOR</code> / <code>usOR</code>: Use <code>OR</code> instead of <code>XOR</code> with inputs A<sub>i</sub> and B<sub>i</sub><br>
+                            Does not affect the combination with the Carry-In-Bit of the Full-Adder.
+                        </li>
                     </ul>
                 </div>
                 <ul>
@@ -222,9 +173,9 @@
                     <li><code>1-&gt;MQ<sub>0</sub></code> / <code>sMQ<sub>0</sub></code>: If the last bit of the MQ-Register should be set to 1</li>
                     <li><code>Reset<sub>SC</sub></code> / <code>rs<sub>SC</sub></code>: If the Shift-Counter should be set to 0</li>
                 </ul>
-                <h2>Output Signals</h2>
+                <h2 id="help-out-signals">Output Signals</h2>
                 <ul>
-                    <li><code>Carry-Out</code> / <code>c-o</code>: The Carry-Out signal of the last saved Addition</li>
+                    <li><code>Carry-Out</code> / <code>c-o</code>: The Carry-Out signal of the last saved Addition. Indicates over- and underflow</li>
                     <li><code>Sign</code> / <code>sgn</code>: The most significant bit of the Akkumulator</li>
                     <li><code>Ak=0</code> / <code>ak<sub>0</sub></code>: If the Akkumulator holds the value 0</li>
                     <li><code>SC=0</code> / <code>sc<sub>0</sub></code>: If the Shift-Counter holds the value 0</li>
@@ -234,17 +185,64 @@
                 <p>
                     A Program is json-file with <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu/blob/main/public/program.schema.json" target="_blank">this schema</a>.
                 </p>
-                <p>All instructions have a type, that is <code>mem</code>, <code>jmp</code> or <code>alu</code>.</p>
+                <p>All instructions have a type: <code>mem</code>, <code>jmp</code> or <code>alu</code>.</p>
+                <p>All instructions can have a comment field.</p>
                 <h3>Memory Instructions (mem)</h3>
                 <p>Write to the Input-Register and/or the Shift-Counter. Values are either integers or for the Input-Register only: "in1" or "in2" to use the value form the User-Inputs.</p>
-                <h3>Jump Instructions</h3>
-                <p></p>
+                <h3>Jump Instructions (jmp)</h3>
+                <p>Used to implement if- and while-loops. Change the Program-Counter based on a Signal.</p>
+                <p>If a jump is not taken, the Program-Counter increments by 1 like normal.</p>
+                <ul>
+                    <li><code>signal</code>: The <a href="#help-out-signals">Output Signal</a> that gives the decision. <code>jmp</code> is a special signal for unconditional jumps.</li>
+                    <li><code>if</code>: If the jump should be taken if the signal is on or off. Is required for all signals but <code>jmp</code> where it does nothing.</li>
+                    <li><code>skip</code>: Jump relatively to the current line. If positive, skip <code>skip</code> lines. If negative, go <code>skip</code> lines back.</li>
+                    <li><code>line</code>: Go to this line. Line numbers are absolute.</li>
+                </ul>
+                <p>You need to provide either <code>skip</code> or <code>line</code>. Providing both will first jump to the absolute line and then jump relative to that.</p>
                 <h3>ALU Instructions</h3>
-                <h3>Custom Programms</h3>
+                <p>ALU Instructions set the <a href="#help-input-signals">Input Signals</a> and perform shifts and saving of the ALU result.</p>
+                <p>All signals are optional and default to <code>false</code> / <code>off</code>.</p>
+                <h3>Custom Programs</h3>
+                <p>
+                    To create a custom Program, <a href="/dist/program.schema.json" download="program.schema.json">download the schema</a> and create a new <code>.json</code>-file.<br>
+                    Include <code>"$schema": "&lt;path/to&gt;/program.schema.json"</code> to make your editor guide you and validate the schema.<br>
+                    Give you program a name using the <code>name</code> property.<br>
+                    Specify what circuit you program is for using the <code>unit</code> property.<br>
+                    Put your instructions into the <code>instructions</code> array. Each instruction is an object that specifies the the instruction-type in the <code>type</code>-property and it's options.
+                </p>
+                <p>
+                    The state is randomized on site load. It is recommended to include this as your first instruction:<br>
+                    <code>{ "type": "alu", "rsAk": true, "rsMQ": true, "rsSC": true}</code><br>
+                    This resets all registers. The input signals do not need to be reset. Only the Carry-Out is not reset.
+                </p>
                 <h3>Examples</h3>
+                <ul>
+                    <li><a href="https://github.com/FelixBrockwitz-s3005540/animation-alu/blob/main/public/AddInt.json" target="_blank" rel="noopener noreferrer"><code>AddInt.json</code></a></li>
+                    <li><a href="https://github.com/FelixBrockwitz-s3005540/animation-alu/blob/main/public/SubInt.json" target="_blank" rel="noopener noreferrer"><code>SubInt.json</code></a></li>
+                    <li><a href="https://github.com/FelixBrockwitz-s3005540/animation-alu/blob/main/public/MultiplyInt.json" target="_blank" rel="noopener noreferrer"><code>MultiplyInt.json</code></a></li>
+                </ul>
                 <h2>UI</h2>
-                <h3>Running Programm</h3>
+                <p>On the left you have circuit with its current state. And on the right you have the program being executed. Both come with their own toolbar.</p>
+                <h3>Running Programs</h3>
+                <p>
+                    To run a program you can step through it using the <code>Step</code>-button.
+                    Alternatively you can hit the <code>Play</code>-button to let the program run at the speed specified by the slider.
+                    To stop it, hit the <code>Play</code>-button again.
+                    To start at the start again, hit the <code>Reset</code>-button, which sets resets the program counter.
+                </p>
+                <p>
+                    You can also set breakpoints, where, once you hit play, it stops.
+                    To set a breakpoint, click the line-number of the line you want to break before it executes.
+                    To remove a breakpoint, click again.
+                </p>
+                <p>Changing the program also resets the Program-Counter. If the program executes <code>HALT</code>, it stops.</p>
                 <h3>User Input</h3>
+                <p>
+                    Apart from choosing the executing circuit and program you can also provide user input to the program by using the two input fields.
+                    Numbers are entered in decimal and the program needs to be instructed to read it.
+                    The read-only Output-Field shows the value of the Akkumulator once the program halts in decimal.
+                </p>
+                <p>Additionally there are links to the <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu" target="_blank">Github Repo</a> and a download-link for the <a href="/dist/program.schema.json" download="program.schema.json">json-schema</a></p>
             </div>
 
             <menu type="toolbar">

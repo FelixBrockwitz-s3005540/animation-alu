@@ -115,7 +115,13 @@ async function init() {
     e.programSelect.dispatchEvent(new Event("change"));
     await renderInit();
 
-    // (document.getElementById("help") as HTMLDialogElement).showModal();
+    e.helpDialog.addEventListener("toggle", () => {
+        if (e.helpDialog.open) {
+            e.helpDialog.querySelector(".content")!.scrollTop = 10000;
+        }
+    });
+    
+    e.helpDialog.showModal();
 }
 
 await init();

@@ -1,0 +1,14 @@
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#help div {
+    height: calc(100% - 3em - 2em /* margin */);
+    overflow-y: auto;
+}
+
+#help menu {
+    height: calc(3em);
+}
