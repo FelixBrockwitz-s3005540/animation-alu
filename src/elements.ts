@@ -6,6 +6,7 @@ export const playSpeedValue = document.getElementById("play-speed-value") as HTM
 
 export const circuitSelect = document.getElementById("circuit") as HTMLSelectElement;
 export const programSelect = document.getElementById("program") as HTMLSelectElement;
+export const programUpload = document.getElementById("program-upload") as HTMLInputElement;
 
 export const input1 = document.getElementById("in1") as HTMLInputElement;
 export const input2 = document.getElementById("in2") as HTMLInputElement;
@@ -32,7 +33,9 @@ export let inputB: SVGPathElement;
 export let carryIn: SVGPathElement;
 export let inputC: SVGPathElement;
 
-export let writeAk: SVGPathElement;
+export let writeAk1: SVGPathElement;
+export let writeAk2: SVGPathElement;
+export let writeAk3: SVGCircleElement;
 export let shAk1: SVGPathElement;
 export let shAk2: SVGPathElement;
 export let shAk3: SVGCircleElement;
@@ -74,7 +77,9 @@ export function loadElementsInt() {
     carryIn = document.getElementById("carry-in") as any;
     inputC  = document.getElementById("input-c") as any;
 
-    writeAk = document.getElementById("write-ak") as any;
+    writeAk1 = document.getElementById("write-ak-1") as any;
+    writeAk2 = document.getElementById("write-ak-2") as any;
+    writeAk3 = document.getElementById("write-ak-3") as any;
     shAk1 = document.getElementById("sh-ak-1") as any;
     shAk2 = document.getElementById("sh-ak-2") as any;
     shAk3 = document.getElementById("sh-ak-3") as any;

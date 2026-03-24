@@ -27,7 +27,9 @@ function colorWires() {
     setWireState(e.carryIn, state.carryIn);
     setWireState(e.inputC, state.invC);
 
-    setWireState(e.writeAk, state.writeAk);
+    setWireState(e.writeAk1, state.writeAk);
+    setWireState(e.writeAk2, state.writeAk);
+    setWireState(e.writeAk3, state.writeAk);
     setWireState(e.shAk1, state.shAk);
     setWireState(e.shAk2, state.shAk);
     setWireState(e.shAk3, state.shAk);
@@ -55,7 +57,7 @@ function colorWires() {
     }
 
     setWireState(e.carryOut1, state.carryOut);
-    setWireState(e.carryOut2, state.carryOut);
+    setWireState(e.carryOut2, state.savedCarryOut);
     setWireState(e.sign, state.sign);
     setWireState(e.ak0, state.ak0);
     setWireState(e.sc0, state.sc0);

@@ -13,7 +13,7 @@
                         { "enum": ["in1", "in2"] }
                     ]
                 },
-                "setShiftCounter": { "type": "number" },
+                "setShiftCounter": { "type": "integer" },
 
                 "comment": { "type": "string" }
             },

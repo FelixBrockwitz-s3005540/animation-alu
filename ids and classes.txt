@@ -15,7 +15,9 @@ id:
     carry-in
     input-c
     
-    write-ak
+    write-ak-1
+    write-ak-2
+    write-ak-3
     sh-ak-1
     sh-ak-2
     sh-ak-3

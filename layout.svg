@@ -27,11 +27,11 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      showgrid="false"
-     showguides="false"
+     showguides="true"
      inkscape:lockguides="false"
-     inkscape:zoom="13.098554"
-     inkscape:cx="36.187201"
-     inkscape:cy="41.49313"
+     inkscape:zoom="20.49298"
+     inkscape:cx="42.038786"
+     inkscape:cy="53.9941"
      inkscape:window-width="1671"
      inkscape:window-height="1043"
      inkscape:window-x="0"
@@ -171,12 +171,12 @@
        id="guide17"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="30.293957,10.724542"
+       position="18.635752,10.495197"
        orientation="0,-1"
        id="guide33"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="17.288032,9.2504494"
+       position="17.301993,11.264142"
        orientation="1,0"
        id="guide44"
        inkscape:locked="false" />
@@ -204,6 +204,11 @@
        position="19.351555,16.526508"
        orientation="1,0"
        id="guide9"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="17.301993,11.264142"
+       orientation="0,-1"
+       id="guide10"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
@@ -1245,7 +1250,7 @@
          transform="matrix(2.298741,0,0,2.298741,-13.771517,-14.21416)"><tspan
            x="10.619472"
            y="12"
-           id="tspan3">ALU</tspan></text>
+           id="tspan5">ALU</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:0.79375px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.132292;stroke-miterlimit:2"
@@ -1509,14 +1514,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.264583px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.132292;stroke-miterlimit:2"
-       x="3.8126891"
-       y="16.268566"
+       x="3.6620359"
+       y="16.520252"
        id="text29-5"><tspan
          sodipodi:role="line"
          id="tspan28-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
-         x="3.8126891"
-         y="16.268566"><tspan
+         x="3.6620359"
+         y="16.520252"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
            id="tspan36-4">1</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
@@ -1565,6 +1570,12 @@
        id="path6-3"
        cx="24.888603"
        cy="16.528189"
+       r="0.26458332" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none"
+       id="path6-3-3"
+       cx="10.703976"
+       cy="15.759244"
        r="0.26458332" />
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none"
@@ -1905,5 +1916,10 @@
          sodipodi:role="line"
          id="tspan9"
          style="stroke-width:0.132292" /></text>
+    <path
+       style="font-variation-settings:'opsz' 32;fill:none;stroke:#000000;stroke-width:0.1323;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.703975,15.759244 -6.9712948,0 -10e-8,-2.259246"
+       id="path7"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>

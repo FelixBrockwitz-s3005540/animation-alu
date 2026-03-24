@@ -8,12 +8,13 @@
         <link rel="stylesheet" href="/src/index.css">
         <link rel="stylesheet" href="/src/table.css">
         <link rel="stylesheet" href="/src/svg.css">
+        <link rel="stylesheet" href="/src/help.css">
         <title>animation-alu</title>
     </head>
     <body>
         <main>
             <menu type="toolbar">
-                <button id="help">Help</button>
+                <button id="helpButton" onclick="help.showModal()">Help</button>
                 <label for="circuit">
                     Executing Circuit:
                     <select id="circuit">
@@ -27,12 +28,15 @@
                         <option value="/dist/AddInt.json" selected>Addition</option>
                         <option value="/dist/SubInt.json">Subtraction</option>
                         <option value="/dist/MultiplyInt.json">Multiplication</option>
+                        <option value="custom">Custom</option>
                     </select>
+                    <input type="file" id="program-upload" style="display: none;" accept=".json">
                 </label>
                 <label for="in1">Input 1: <input id="in1" type="number" value="10"></label>
                 <label for="in2">Input 2: <input id="in2" type="number" value="6"></label>
                 <label for="out">Output: <input type="number" id="out" disabled value="0"></label>
                 <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu" target="_blank">Github Repo</a>
+                <a href="/dist/program.schema.json" download="program.schema.json">Program Schema</a>
             </menu>
             <div id="svg-target"></div>
         </main>
@@ -57,7 +61,7 @@
                         <th>c-in</th>
                         <th>~C</th>
                         
-                        <th>w<sub>Ak</sub></th>
+                        <th>wr<sub>Ak</sub></th>
                         <th>sh<sub>Ak</sub></th>
                         <th>sh<sub>MQ</sub></th>
                         <th>rs<sub>MQ</sub></th>
@@ -72,5 +76,178 @@
                 </table>
             </div>
         </aside>
+        <dialog id="help">
+            <div class="content">
+                <h1>Manual</h1>
+                <h2>Input Signals</h2>
+                The ALU is an binary addition circuit with a few extra options.
+                <div class="side-by-side">
+                    <table>
+                        <tr>
+                            <th>A/~A</th>
+                            <th>B/~B</th>
+                            <th>Carry-In</th>
+                            <th>C/~C</th>
+                            <th>Function</th>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td>Addition (A+B)</td>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td>Addition with Carry-In (A+B+1)</td>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td>Subtraction (A-B)</td>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td>Subtraction (B-A)</td>
+                        </tr>
+                        <tr>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: red;">0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: red;">0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td style="color: greenyellow;">1</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <ul>
+                        <li><code>A/~A</code> / <code>~A</code>: If A (Input) should be inverted bitwise</li>
+                        <li><code>B/~B</code> / <code>~B</code>: If B (Akku) should be inverted bitwise</li>
+                        <li><code>Carry-In</code> / <code>c-in</code>: If there should be a Carry-In</li>
+                        <li><code>C/~C</code> / <code>~C</code>: If C (Output) should be inverted bitwise</li>
+                    </ul>
+                </div>
+                <ul>
+                    <li><code>write<sub>Ak</sub></code> / <code>wr<sub>Ak</sub></code>: If the ALU result should be saved to the Akkumulator and if the Carry-Out should be saved</li>
+                    <li><code>sh<sub>Ak</sub></code>: If the Akkumulator should be shifted, the Shift-Counter will be decremented if this is true</li>
+                    <li><code>sh<sub>MQ</sub></code>: If the MQ-Register should be shifted, the Shift-Counter will be decremented if this is true</li>
+                    <li><code>Reset<sub>MQ</sub></code> / <code>rs<sub>MQ</sub></code>: If the MQ-Register should be set to 0</li>
+                    <li><code>shl/shr</code> / <code>sh-L</code>: The direction of the Shift of the Akkumulator or MQ-Register</li>
+                    <li><code>Reset<sub>Ak</sub></code> / <code>rs<sub>Ak</sub></code>: If the Akkumulator should be set to 0</li>
+                    <li><code>1-&gt;MQ<sub>0</sub></code> / <code>sMQ<sub>0</sub></code>: If the last bit of the MQ-Register should be set to 1</li>
+                    <li><code>Reset<sub>SC</sub></code> / <code>rs<sub>SC</sub></code>: If the Shift-Counter should be set to 0</li>
+                </ul>
+                <h2>Output Signals</h2>
+                <ul>
+                    <li><code>Carry-Out</code> / <code>c-o</code>: The Carry-Out signal of the last saved Addition</li>
+                    <li><code>Sign</code> / <code>sgn</code>: The most significant bit of the Akkumulator</li>
+                    <li><code>Ak=0</code> / <code>ak<sub>0</sub></code>: If the Akkumulator holds the value 0</li>
+                    <li><code>SC=0</code> / <code>sc<sub>0</sub></code>: If the Shift-Counter holds the value 0</li>
+                    <li><code>MQ<sub>0</sub></code> / <code>mq<sub>0</sub></code>: The least significant bit of the MQ-Register</li>
+                </ul>
+                <h2>Instructions</h2>
+                <p>
+                    A Program is json-file with <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu/blob/main/public/program.schema.json" target="_blank">this schema</a>.
+                </p>
+                <p>All instructions have a type, that is <code>mem</code>, <code>jmp</code> or <code>alu</code>.</p>
+                <h3>Memory Instructions (mem)</h3>
+                <p>Write to the Input-Register and/or the Shift-Counter. Values are either integers or for the Input-Register only: "in1" or "in2" to use the value form the User-Inputs.</p>
+                <h3>Jump Instructions</h3>
+                <p></p>
+                <h3>ALU Instructions</h3>
+                <h3>Custom Programms</h3>
+                <h3>Examples</h3>
+                <h2>UI</h2>
+                <h3>Running Programm</h3>
+                <h3>User Input</h3>
+            </div>
+
+            <menu type="toolbar">
+                <button onclick="help.close()">Close</button>
+            </menu>
+        </dialog>
     </body>
 </html>

@@ -28,7 +28,29 @@ async function init() {
         }
     });
 
+    e.programUpload.addEventListener("change", ev => {
+        const file = e.programUpload.files![0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = ev => {
+            const json = ev.target!.result as string;
+            const parsed = JSON.parse(json) as Program;
+            state.programName = parsed.name;
+            state.executionUnit = parsed.unit;
+            state.program = parsed.instructions;
+            state.programCounter = 0;
+            renderProgram();
+            e.resetButton.click();
+        };
+        reader.readAsText(file);
+    });
+
     e.programSelect.addEventListener("change", async () => {
+        if (e.programSelect.value === "custom") {
+            e.programUpload.click();
+            return;
+        }
         const response = await fetch(e.programSelect.value);
         const json = await response.text();
         const parsed = JSON.parse(json) as Program;
@@ -89,9 +111,11 @@ async function init() {
     e.playSpeedValue.addEventListener("change", () => {
         changePlaySpeed(parseFloat(e.playSpeedValue.value));
     });
-    
+
     e.programSelect.dispatchEvent(new Event("change"));
     await renderInit();
+
+    (document.getElementById("help") as HTMLDialogElement).showModal();
 }
 
 await init();

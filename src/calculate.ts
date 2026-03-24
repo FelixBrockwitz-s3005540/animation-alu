@@ -28,20 +28,20 @@ export function executeLine(line: number) {
             break;
     }
 
-    state.aluResult = calculateAlu();
-
-    
     if (state.programCounter >= state.program!.length) {
+        state.aluResult = calculateAlu();
         e.output.value = state.ak.toString();
     } else {
         const nextInstruction = state.program![state.programCounter]!;
-
+        
         if (nextInstruction.type === "alu") {
             setInputs(nextInstruction);
         } else {
             setInputs({ type: "alu" });
         }
-
+        
+        state.aluResult = calculateAlu();
+    
         if (state.breakPoints.has(state.programCounter) && state.playInterval !== undefined) {
             e.playButton.click();
         }
@@ -114,7 +114,10 @@ export function executeJmp(instruction: JumpInstruction) {
 }
 
 export function executeALU() {
-    if (state.writeAk) state.ak = state.aluResult;
+    if (state.writeAk) {
+        state.ak = state.aluResult;
+        state.savedCarryOut = state.carryOut;
+    }
 
     if (state.shAk && state.shMQ) {
         if (state.shl) {

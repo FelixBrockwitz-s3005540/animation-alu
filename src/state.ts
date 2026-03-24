@@ -12,9 +12,11 @@ const state = {
 
     inputReg: 3,
     ak: 0,
+    savedCarryOut: false,
     mq: 0,
     sc: 0,
     aluResult: 0,
+    carryOut: false,
 
     invA: false,
     invB: false,
@@ -29,8 +31,6 @@ const state = {
     resetAk: false,
     oneMQ0: false,
     resetSC: false,
-
-    carryOut: false,
 
     get sign() {
         return toBits(state.ak, 8)[7]!;

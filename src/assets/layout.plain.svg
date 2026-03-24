@@ -1194,14 +1194,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.264583px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.132292;stroke-miterlimit:2"
-       x="3.8126891"
-       y="16.268566"
+       x="3.6620359"
+       y="16.520252"
        class="number-display"
        id="alu-c"><tspan
          id="tspan28-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
-         x="3.8126891"
-         y="16.268566"><tspan
+         x="3.6620359"
+         y="16.520252"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#00ff00"
            id="tspan36">1</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:Sans;-inkscape-font-specification:'Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#ff0000"
@@ -1394,7 +1394,7 @@
     <path
        style="font-variation-settings:'opsz' 32;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="m 26.378018,15.759244 -15.674043,0 1e-6,1.474092"
-       id="write-ak" />
+       id="write-ak-1" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.79375px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
@@ -1441,7 +1441,6 @@
        x="26.378017"
        y="21.212828"
        id="shl-shr"><tspan
-         sodipodi:role="line"
          id="tspan46"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
          x="26.378017"
@@ -1546,5 +1545,15 @@
          y="26.081848">MQ<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan56">0</tspan></tspan></text>
+   <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none"
+       id="write-ak-3"
+       cx="10.703976"
+       cy="15.759244"
+       r="0.26458332" />
+   <path
+       style="font-variation-settings:'opsz' 32;fill:none;stroke:#000000;stroke-width:0.1323;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.703975,15.759244 -6.9712948,0 -10e-8,-2.259246"
+       id="write-ak-2" />
   </g>
 </svg>
