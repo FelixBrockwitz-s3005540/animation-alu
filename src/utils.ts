@@ -11,6 +11,15 @@ export function toBits(int: number, numBits: number): boolean[] {
     return bits;
 }
 
+export function fromBits(bits: boolean[]): number {
+    let num = 0;
+    for (let i = 0; i < bits.length; i++) {
+        num |= (bits[i] ? 1 : 0) << i;
+    }
+
+    return num;
+}
+
 export function bitString(bits: boolean[]): string {
     let str = "";
     for (const bit of bits) {

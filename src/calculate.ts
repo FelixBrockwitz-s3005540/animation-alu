@@ -1,6 +1,7 @@
 import type { ALUInstruction, JumpInstruction, MemoryInstruction } from "./instructions";
 import state from "./state";
 import * as e from "./elements";
+import { fromBits, toBits } from "./utils";
 
 export function executeLine(line: number) {
     const instruction = state.program![line];
@@ -29,7 +30,7 @@ export function executeLine(line: number) {
     }
 
     if (state.programCounter >= state.program!.length) {
-        state.aluResult = calculateAlu();
+        state.aluResult = calculateRippleCarryALU();
         e.output.value = state.ak.toString();
     } else {
         const nextInstruction = state.program![state.programCounter]!;
@@ -40,7 +41,7 @@ export function executeLine(line: number) {
             setInputs({ type: "alu" });
         }
         
-        state.aluResult = calculateAlu();
+        state.aluResult = calculateRippleCarryALU();
     
         if (state.breakPoints.has(state.programCounter) && state.playInterval !== undefined) {
             e.playButton.click();
@@ -165,7 +166,8 @@ export function setInputs(instruction: ALUInstruction) {
     state.invA = instruction.invA ?? false;
     state.invB = instruction.invB ?? false;
     state.carryIn = instruction.caIn ?? false;
-    state.invC = instruction.invC ?? false;
+    state.floodCarry = instruction.flCa ?? false;
+    state.useOr = instruction.usOR ?? false;
 
     state.writeAk = instruction.wrAk ?? false;
     state.shAk = instruction.shAk ?? false;
@@ -177,11 +179,29 @@ export function setInputs(instruction: ALUInstruction) {
     state.resetSC = instruction.rsSC ?? false;
 }
 
-export function calculateAlu(): number {
-    const a = (state.invA) ? (~state.ak) & 0xFF : state.ak & 0xFF;
-    const b = (state.invB) ? (~state.inputReg) & 0xFF : state.inputReg & 0xFF;
-    const cIn = (state.carryIn) ? 1 : 0;
-    const c = a + b + cIn;
-    state.carryOut = (c & (1 << 8)) !== 0;
-    return (state.invC) ? (~c) & 0xFF : c & 0xFF;
+export function calculateRippleCarryALU(): number {
+    let a = toBits(state.ak, 8);
+    let b = toBits(state.inputReg, 8);
+    let c = new Array<boolean>(9);
+    c[0] = state.carryIn || state.floodCarry;
+    let res = new Array<boolean>(8);
+
+    if (state.invA) {
+        a = a.map(bit => !bit);
+    }
+    if (state.invB) {
+        b = b.map(bit => !bit);
+    }
+
+    for (let i = 0; i < 8; i++) {
+        if (state.useOr) {
+            res[i] = (a[i] || b[i]) !== c[i]!;
+        } else {
+            res[i] = (a[i] !== b[i]) !== c[i];
+        }
+        c[i+1] = state.floodCarry || (a[i] && b[i]) || ((a[i] || b[i]) && c[i])!;
+    }
+
+    state.carryOut = c[8]!;
+    return fromBits(res);
 }

@@ -63,7 +63,8 @@
                 "invA": { "type": "boolean", "default": false },
                 "invB": { "type": "boolean", "default": false },
                 "caIn": { "type": "boolean", "default": false },
-                "invC": { "type": "boolean", "default": false },
+                "flCa": { "type": "boolean", "default": false },
+                "usOR": { "type": "boolean", "default": false },
 
                 "wrAk": { "type": "boolean", "default": false },
                 "shAk": { "type": "boolean", "default": false },

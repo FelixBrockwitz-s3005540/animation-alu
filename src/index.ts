@@ -115,7 +115,7 @@ async function init() {
     e.programSelect.dispatchEvent(new Event("change"));
     await renderInit();
 
-    (document.getElementById("help") as HTMLDialogElement).showModal();
+    // (document.getElementById("help") as HTMLDialogElement).showModal();
 }
 
 await init();

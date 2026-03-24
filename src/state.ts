@@ -21,7 +21,8 @@ const state = {
     invA: false,
     invB: false,
     carryIn: false,
-    invC: false,
+    floodCarry: false,
+    useOr: false,
 
     writeAk: false,
     shAk: true,
@@ -56,7 +57,7 @@ function randomState() {
     state.invA = Math.random() < 0.5;
     state.invB = Math.random() < 0.5;
     state.carryIn = Math.random() < 0.5;
-    state.invC = Math.random() < 0.5;
+    state.floodCarry = Math.random() < 0.5;
 
     state.writeAk = Math.random() < 0.5;
     state.shAk = Math.random() < 0.5;

@@ -10,10 +10,11 @@ id:
     shift-counter-count
     or-gate
 
-    input-a
-    input-b
+    inv-a
+    inv-b
     carry-in
-    input-c
+    flood-carry
+    or-xor
     
     write-ak-1
     write-ak-2

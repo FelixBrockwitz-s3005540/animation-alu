@@ -25,7 +25,8 @@ function colorWires() {
     setWireState(e.inputA, state.invA);
     setWireState(e.inputB, state.invB);
     setWireState(e.carryIn, state.carryIn);
-    setWireState(e.inputC, state.invC);
+    setWireState(e.floodCarry, state.floodCarry);
+    setWireState(e.orXor, state.useOr);
 
     setWireState(e.writeAk1, state.writeAk);
     setWireState(e.writeAk2, state.writeAk);
@@ -174,7 +175,8 @@ export function renderProgram() {
             row.appendChild(createTableBit(instruction.invA ?? false));
             row.appendChild(createTableBit(instruction.invB ?? false));
             row.appendChild(createTableBit(instruction.caIn ?? false));
-            row.appendChild(createTableBit(instruction.invC ?? false));
+            row.appendChild(createTableBit(instruction.flCa ?? false));
+            row.appendChild(createTableBit(instruction.usOR ?? false));
             row.appendChild(createTableBit(instruction.wrAk ?? false));
             row.appendChild(createTableBit(instruction.shAk ?? false));
             row.appendChild(createTableBit(instruction.shMQ ?? false));

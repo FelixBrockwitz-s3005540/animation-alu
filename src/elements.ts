@@ -31,7 +31,8 @@ export let shiftCounterCount: SVGTextElement;
 export let inputA: SVGPathElement;
 export let inputB: SVGPathElement;
 export let carryIn: SVGPathElement;
-export let inputC: SVGPathElement;
+export let floodCarry: SVGPathElement;
+export let orXor: SVGPathElement;
 
 export let writeAk1: SVGPathElement;
 export let writeAk2: SVGPathElement;
@@ -72,10 +73,11 @@ export function loadElementsInt() {
     akCDisplay = document.getElementById("alu-c") as any;
     shiftCounterCount = document.getElementById("shift-counter-count") as any;
 
-    inputA  = document.getElementById("input-a") as any;
-    inputB  = document.getElementById("input-b") as any;
+    inputA  = document.getElementById("inv-a") as any;
+    inputB  = document.getElementById("inv-b") as any;
     carryIn = document.getElementById("carry-in") as any;
-    inputC  = document.getElementById("input-c") as any;
+    floodCarry  = document.getElementById("flood-carry") as any;
+    orXor  = document.getElementById("or-xor") as any;
 
     writeAk1 = document.getElementById("write-ak-1") as any;
     writeAk2 = document.getElementById("write-ak-2") as any;

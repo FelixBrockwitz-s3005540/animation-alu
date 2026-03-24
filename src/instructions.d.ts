@@ -22,7 +22,8 @@ export interface ALUInstruction extends Instruction {
     invA?: boolean;
     invB?: boolean;
     caIn?: boolean;
-    invC?: boolean;
+    flCa?: boolean;
+    usOR?: boolean;
 
     wrAk?: boolean;
     shAk?: boolean;

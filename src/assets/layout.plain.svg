@@ -4,7 +4,7 @@
 <svg
    width="136"
    height="100"
-   viewBox="0 0 36 27"
+   viewBox="0 0 37 27"
    version="1.1"
    id="svg1"
    xmlns="http://www.w3.org/2000/svg"
@@ -1145,25 +1145,26 @@
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 2.1062069,12.499997 -3.0995876,10e-7"
        id="carry-out-line-2" />
-    <g
-       id="g56">
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 18.737663,10.749104 h 7.640354"
-         id="input-a" />
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 18.737663,13.189822 h 7.640354"
-         id="carry-in" />
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 18.737663,14.25089 h 7.640354"
-         id="input-c" />
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 18.737663,12.045814 h 7.640354"
-         id="input-b" />
-    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.803809,10.636709 h 7.640354"
+       id="inv-a" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.803809,11.568354 h 7.640354"
+       id="inv-b" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.803809,12.499999 h 7.640354"
+       id="carry-in" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.803809,13.431644 h 7.640354"
+       id="flood-carry" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.803809,14.363289 h 7.640354"
+       id="or-xor" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.264583px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.132292;stroke-miterlimit:2"
@@ -1312,51 +1313,57 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-       x="26.378017"
-       y="11.094301"
+       x="26.444162"
+       y="10.852458"
        id="text18"><tspan
          id="tspan17"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292"
-         x="26.378017"
-         y="11.094301"> A/~A</tspan></text>
+         x="26.444162"
+         y="10.852458"> A/~A</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-       x="26.378017"
-       y="12.261563"
+       x="26.444162"
+       y="11.784103"
        id="text22"><tspan
          id="tspan22"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
-         x="26.378017"
-         y="12.261563"> B/~B</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
-         x="26.378017"
-         y="13.088386"
-         id="tspan23" /><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
-         x="26.378017"
-         y="13.915209"
-         id="tspan24" /></text>
+         x="26.444162"
+         y="11.784103"> B/~B</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-       x="26.378017"
-       y="13.366814"
+       x="26.444162"
+       y="12.676991"
        id="text25"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;stroke-width:0.132292"
-         x="26.378017"
-         y="13.366814"
+         x="26.444162"
+         y="12.676991"
          id="tspan26"> Carry-In</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
-       x="26.378017"
-       y="14.466639"
+       x="26.444162"
+       y="13.608636"
        id="text27"><tspan
          id="tspan27"
          style="stroke-width:0.132292"
-         x="26.378017"
-         y="14.466639"> C/~C</tspan></text>
+         x="26.444162"
+         y="13.608636"> Flood-carry</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+       x="26.444162"
+       y="14.54028"
+       id="text25-7"><tspan
+         id="tspan26-9"
+         style="stroke-width:0.132292"
+         x="26.444162"
+         y="14.54028"> <tspan
+           style="fill:#00ff00"
+           id="tspan6">OR</tspan>/<tspan
+           style="fill:#ff0000"
+           id="tspan7">XOR</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.661458px;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans, @opsz=32';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 32;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
