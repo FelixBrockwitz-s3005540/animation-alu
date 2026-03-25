@@ -112,8 +112,8 @@ async function init() {
         changePlaySpeed(parseFloat(e.playSpeedValue.value));
     });
 
-    e.programSelect.dispatchEvent(new Event("change"));
     await renderInit();
+    e.programSelect.dispatchEvent(new Event("change"));
 
     e.helpDialog.addEventListener("toggle", () => {
         if (e.helpDialog.open) {
