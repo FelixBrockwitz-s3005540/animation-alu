@@ -13,15 +13,12 @@ jobs:
     build:
         runs-on: ubuntu-latest
 
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
         steps:
             - name: Checkout
-              uses: actions/checkout@v4
+              uses: actions/checkout@main
 
             - name: Setup Node
-              uses: actions/setup-node@v4
+              uses: actions/setup-node@main
               with:
                   node-version: 24
                   cache: npm
@@ -33,7 +30,7 @@ jobs:
               run: npm run build
 
             - name: Upload artifact
-              uses: actions/upload-pages-artifact@v3
+              uses: actions/upload-pages-artifact@main
               with:
                   path: ./docs
 
@@ -44,9 +41,6 @@ jobs:
         environment:
             name: github-pages
             url: ${{ steps.deployment.outputs.page_url }}
-
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
         steps:
             - name: Deploy to GitHub Pages
