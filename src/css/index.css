@@ -3,6 +3,7 @@
     --text-h: #08060d;
     --bg: #fff;
     --border: #e5e4e7;
+    --border-focus: #d5d4d7;
     --code-bg: #f4f3ec;
     --accent: #aa3bff;
     --accent-bg: rgba(170, 59, 255, 0.1);
@@ -27,6 +28,8 @@
     @media (max-width: 1024px) {
         font-size: 16px;
     }
+
+    height: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,6 +38,7 @@
         --text-h: #f3f4f6;
         --bg: #16171d;
         --border: #2e303a;
+        --border-focus: #3e404a;
         --code-bg: #1f2028;
         --accent: #c084fc;
         --accent-bg: rgba(192, 132, 252, 0.15);
@@ -55,26 +59,91 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin: 0;
+    height: 100%;
 }
 
 main {
     flex-shrink: 1;
     flex-grow: 1;
-    max-height: 100vh;
+    height: 100%;
+
+    menu {
+        padding-left: 10px;
+    }
 }
 
 aside {
     flex-shrink: 0;
     flex-grow: 0;
     background-color: var(--bg);
-    max-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    border-left: solid var(--border);
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 0;
+    border-bottom: solid var(--border);
+    gap: 2px;
+
+    label {
+        white-space: nowrap;
+    }
+
+    svg {
+        height: 100%;
+    }
+
+    a {
+        color: var(--text-h);
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: var(--social-bg);
+        border: var(--border) 2px solid;
+        border-radius: 5px;
+        padding: 0 3px;
+    }
 }
 
 #play-speed-value {
-    width: 5ch;
+    width: 7ch;
+}
+
+p, span, label {
+    color: var(--text-h);
+}
+
+input, select, button {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: var(--border);
+
+    &:focus {
+        border-color: var(--border-focus);
+    }
+}
+
+button, select {
+    background-color: var(--social-bg);
+}
+input {
+    background-color: var(--code-bg);
+}
+
+input[type="number"] {
+    text-align: right;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 dialog {

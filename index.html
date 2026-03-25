@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="color-scheme" content="light dark">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script type="module" src="/src/index.ts"></script>
         <link rel="stylesheet" href="/src/css/animation.css">
@@ -35,8 +36,14 @@
                 <label for="in1">Input 1: <input id="in1" type="number" value="10"></label>
                 <label for="in2">Input 2: <input id="in2" type="number" value="6"></label>
                 <label for="out">Output: <input type="number" id="out" disabled value="0"></label>
-                <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu" target="_blank">Github Repo</a>
-                <a href="/dist/program.schema.json" download="program.schema.json">Program Schema</a>
+                <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu" target="_blank">
+                    <svg aria-hidden="true" focusable="false" class="octicon octicon-mark-github" viewBox="0 0 24 24" width="2ch" height="1em" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path></svg>
+                    <span>Github Repo</span>
+                </a>
+                <a href="/dist/program.schema.json" download="program.schema.json">
+                    <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="2ch" height="1em" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><!--Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 306.7L246.6 265.3C234.1 252.8 213.8 252.8 201.3 265.3C188.8 277.8 188.8 298.1 201.3 310.6L297.3 406.6C309.8 419.1 330.1 419.1 342.6 406.6L438.6 310.6C451.1 298.1 451.1 277.8 438.6 265.3C426.1 252.8 405.8 252.8 393.3 265.3L352 306.7L352 96zM160 384C124.7 384 96 412.7 96 448L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 448C544 412.7 515.3 384 480 384L433.1 384L376.5 440.6C345.3 471.8 294.6 471.8 263.4 440.6L206.9 384L160 384zM464 440C477.3 440 488 450.7 488 464C488 477.3 477.3 488 464 488C450.7 488 440 477.3 440 464C440 450.7 450.7 440 464 440z"/></svg>
+                    <span>Program Schema</span>
+                </a>
             </menu>
             <div id="svg-target"></div>
         </main>
@@ -48,7 +55,7 @@
                 <label for="play-speed-value" title="ms/Instruction">
                     Interval: 
                     <input type="range" id="play-speed-range" min="10" max="1000" step="10" value="500">
-                    <input type="text" id="play-speed-value" minlength="1" value="500" pattern="-?[1-9][0-9]*">
+                    <input type="number" id="play-speed-value" min="1" value="500" pattern="-?[1-9][0-9]*">
                 </label>
             </menu>
             <div id="table-wrapper">
@@ -153,33 +160,33 @@
                         </tr>
                     </table>
                     <ul>
-                        <li><code>A/~A</code> / <code>~A</code>: If A (Input) should be inverted bitwise</li>
-                        <li><code>B/~B</code> / <code>~B</code>: If B (Akku) should be inverted bitwise</li>
-                        <li><code>Carry-In</code> / <code>c-in</code>: If there should be a Carry-In</li>
-                        <li><code>Flood-Carry</code> / <code>flca</code>: Forces all carrys to be 1</li>
+                        <li><code>A/~A</code> / <code>~A</code>: If A (Input) should be inverted bitwise.</li>
+                        <li><code>B/~B</code> / <code>~B</code>: If B (Akku) should be inverted bitwise.</li>
+                        <li><code>Carry-In</code> / <code>c-in</code>: If there should be a Carry-In.</li>
+                        <li><code>Flood-Carry</code> / <code>flca</code>: Forces all carrys to be 1.</li>
                         <li>
-                            <code>OR/XOR</code> / <code>usOR</code>: Use <code>OR</code> instead of <code>XOR</code> with inputs A<sub>i</sub> and B<sub>i</sub><br>
+                            <code>OR/XOR</code> / <code>usOR</code>: Use <code>OR</code> instead of <code>XOR</code> with inputs A<sub>i</sub> and B<sub>i</sub>.<br>
                             Does not affect the combination with the Carry-In-Bit of the Full-Adder.
                         </li>
                     </ul>
                 </div>
                 <ul>
-                    <li><code>write<sub>Ak</sub></code> / <code>wr<sub>Ak</sub></code>: If the ALU result should be saved to the Akkumulator and if the Carry-Out should be saved</li>
-                    <li><code>sh<sub>Ak</sub></code>: If the Akkumulator should be shifted, the Shift-Counter will be decremented if this is true</li>
-                    <li><code>sh<sub>MQ</sub></code>: If the MQ-Register should be shifted, the Shift-Counter will be decremented if this is true</li>
-                    <li><code>Reset<sub>MQ</sub></code> / <code>rs<sub>MQ</sub></code>: If the MQ-Register should be set to 0</li>
-                    <li><code>shl/shr</code> / <code>sh-L</code>: The direction of the Shift of the Akkumulator or MQ-Register</li>
-                    <li><code>Reset<sub>Ak</sub></code> / <code>rs<sub>Ak</sub></code>: If the Akkumulator should be set to 0</li>
-                    <li><code>1-&gt;MQ<sub>0</sub></code> / <code>sMQ<sub>0</sub></code>: If the last bit of the MQ-Register should be set to 1</li>
-                    <li><code>Reset<sub>SC</sub></code> / <code>rs<sub>SC</sub></code>: If the Shift-Counter should be set to 0</li>
+                    <li><code>write<sub>Ak</sub></code> / <code>wr<sub>Ak</sub></code>: If the ALU result should be saved to the Akkumulator and if the Carry-Out should be saved.</li>
+                    <li><code>sh<sub>Ak</sub></code>: If the Akkumulator should be shifted, the Shift-Counter will be decremented if this is true.</li>
+                    <li><code>sh<sub>MQ</sub></code>: If the MQ-Register should be shifted, the Shift-Counter will be decremented if this is true.</li>
+                    <li><code>Reset<sub>MQ</sub></code> / <code>rs<sub>MQ</sub></code>: If the MQ-Register should be set to 0.</li>
+                    <li><code>shl/shr</code> / <code>sh-L</code>: The direction of the Shift of the Akkumulator or MQ-Register.</li>
+                    <li><code>Reset<sub>Ak</sub></code> / <code>rs<sub>Ak</sub></code>: If the Akkumulator should be set to 0.</li>
+                    <li><code>1-&gt;MQ<sub>0</sub></code> / <code>sMQ<sub>0</sub></code>: If the last bit of the MQ-Register should be set to 1.</li>
+                    <li><code>Reset<sub>SC</sub></code> / <code>rs<sub>SC</sub></code>: If the Shift-Counter should be set to 0.</li>
                 </ul>
                 <h2 id="help-out-signals">Output Signals</h2>
                 <ul>
-                    <li><code>Carry-Out</code> / <code>c-o</code>: The Carry-Out signal of the last saved Addition. Indicates over- and underflow</li>
-                    <li><code>Sign</code> / <code>sgn</code>: The most significant bit of the Akkumulator</li>
-                    <li><code>Ak=0</code> / <code>ak<sub>0</sub></code>: If the Akkumulator holds the value 0</li>
-                    <li><code>SC=0</code> / <code>sc<sub>0</sub></code>: If the Shift-Counter holds the value 0</li>
-                    <li><code>MQ<sub>0</sub></code> / <code>mq<sub>0</sub></code>: The least significant bit of the MQ-Register</li>
+                    <li><code>Carry-Out</code> / <code>c-o</code>: The Carry-Out signal of the last saved Addition. Indicates over- and underflow.</li>
+                    <li><code>Sign</code> / <code>sgn</code>: The most significant bit of the Akkumulator.</li>
+                    <li><code>Ak=0</code> / <code>ak<sub>0</sub></code>: If the Akkumulator holds the value 0.</li>
+                    <li><code>SC=0</code> / <code>sc<sub>0</sub></code>: If the Shift-Counter holds the value 0.</li>
+                    <li><code>MQ<sub>0</sub></code> / <code>mq<sub>0</sub></code>: The least significant bit of the MQ-Register.</li>
                 </ul>
                 <h2>Instructions</h2>
                 <p>
@@ -242,7 +249,7 @@
                     Numbers are entered in decimal and the program needs to be instructed to read it.
                     The read-only Output-Field shows the value of the Akkumulator once the program halts in decimal.
                 </p>
-                <p>Additionally there are links to the <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu" target="_blank">Github Repo</a> and a download-link for the <a href="/dist/program.schema.json" download="program.schema.json">json-schema</a></p>
+                <p>Additionally there are links to the <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu" target="_blank">Github Repo</a> and a download-link for the <a href="/dist/program.schema.json" download="program.schema.json">json-schema</a>.</p>
             </div>
 
             <menu type="toolbar">

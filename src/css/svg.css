@@ -1,31 +1,51 @@
-svg {
+#svg-target svg {
     width: 96%;
     height: 96%;
     left: 2%;
 }
 
-svg path:not(marker path) {
+#svg-target svg path:not(marker path) {
     stroke: var(--text-h) !important;
 }
 
-svg #layer1 > text:not(#alu-a, #alu-c),
-svg #layer1 > text:not(#alu-a, #alu-c) *,
-svg #or-gate text * {
+#svg-target svg #layer1 > text:not(#alu-a, #alu-c),
+#svg-target svg #layer1 > text:not(#alu-a, #alu-c) *,
+#svg-target svg #or-gate text * {
     fill: var(--text-h) !important;
 }
 
-svg #or-gate > rect {
+#svg-target svg #or-gate > rect {
     stroke: var(--text-h) !important;
 }
 
-svg .number-display,
-svg .number-display * {
+#svg-target svg .number-display,
+#svg-target svg .number-display * {
     font-family: var(--mono) !important;
 }
 
-svg text#shl-shr tspan#tspan-shl {
+#svg-target svg text#shl-shr tspan#tspan-shl {
     fill: #0f0 !important;
 }
-svg text#shl-shr tspan#tspan-shr {
+#svg-target svg text#shl-shr tspan#tspan-shr {
     fill: #f00 !important;
+}
+
+#svg-target :not(path).true {
+    fill: #0f0 !important;
+}
+
+#svg-target path.true {
+    stroke: #0f0 !important;
+}
+
+#svg-target :not(path).false {
+    fill: #f00 !important;
+}
+
+#svg-target path.false {
+    stroke: #f00 !important;
+}
+
+#svg-target #akku-mq:not(.true, .false) {
+    stroke: #888 !important;
 }

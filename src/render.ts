@@ -160,6 +160,8 @@ function toggleBreakpoint(ev: PointerEvent) {
     }
 }
 
+const colSpan = 13;
+
 export function renderProgram() {
     e.programTableBody.replaceChildren(e.programTableBody.firstElementChild!);
 
@@ -185,10 +187,11 @@ export function renderProgram() {
             row.appendChild(createTableBit(instruction.rsAk ?? false));
             row.appendChild(createTableBit(instruction.sMQ0 ?? false));
             row.appendChild(createTableBit(instruction.rsSC ?? false));
+            row.classList.add("alu");
         }
         if (instruction.type === "jmp") {
             const text = document.createElement("td");
-            text.colSpan = 12;
+            text.colSpan = colSpan;
             text.appendChild(createSpan("jmp"));
 
             if (instruction.line !== undefined) {
@@ -209,7 +212,7 @@ export function renderProgram() {
         }
         if (instruction.type === "mem") {
             const text = document.createElement("td");
-            text.colSpan = 12;
+            text.colSpan = colSpan;
             text.appendChild(createSpan("mem"));
             if (instruction.setInput !== undefined) {
                 text.appendChild(createSpan(" Input="));
@@ -228,9 +231,10 @@ export function renderProgram() {
     const haltRow = document.createElement("tr");
     haltRow.appendChild(document.createElement("td"));
     const halt = document.createElement("td");
-    halt.colSpan = 12;
+    halt.colSpan = colSpan;
     halt.appendChild(createSpan("HALT", "red"));
     haltRow.appendChild(halt);
+    haltRow.classList.add("halt");
     e.programTableBody.appendChild(haltRow);
 
     e.programTableBody.querySelectorAll<HTMLTableCellElement>("tr:not(:first-child, :last-child) td:first-child")

@@ -117,11 +117,9 @@ async function init() {
 
     e.helpDialog.addEventListener("toggle", () => {
         if (e.helpDialog.open) {
-            e.helpDialog.querySelector(".content")!.scrollTop = 10000;
+            e.helpDialog.querySelector(".content")!.scrollTop = 0;
         }
     });
-    
-    e.helpDialog.showModal();
 }
 
 await init();

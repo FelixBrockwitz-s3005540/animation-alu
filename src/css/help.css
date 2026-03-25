@@ -4,11 +4,34 @@
     flex-wrap: nowrap;
 }
 
+#help {
+    padding: 0;
+}
+
 #help div {
-    height: calc(100% - 3em - 2em /* margin */);
+    height: calc(100% - 3em - 1em /* margin */);
     overflow-y: auto;
+    margin: 1em 1em 0 1em;
 }
 
 #help menu {
-    height: calc(3em);
+    height: 3em;
+    border-bottom: none;
+    border-top: solid var(--border);
+    flex-direction: row-reverse;
+}
+
+#help table tr {
+    &:not(:first-child) {
+        white-space: nowrap;
+    }
+    & td:not(:last-child) {
+        text-align: center;
+    }
+}
+
+#help code {
+    background-color: var(--code-bg);
+    border-radius: 5px;
+    padding: 0 5px;
 }
