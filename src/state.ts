@@ -10,7 +10,7 @@ const state = {
     breakPoints: new Set<number>(),
     programCounter: 0,
 
-    inputReg: 3,
+    inputReg: 0,
     ak: 0,
     savedCarryOut: false,
     mq: 0,
@@ -50,14 +50,17 @@ const state = {
 function randomState() {
     state.inputReg = Math.floor(Math.random() * 256);
     state.ak = Math.floor(Math.random() * 256);
+    state.savedCarryOut = Math.random() < 0.5;
     state.mq = Math.floor(Math.random() * 256);
     state.sc = Math.floor(Math.random() * 100);
     state.aluResult = Math.floor(Math.random() * 256);
+    state.carryOut = Math.random() < 0.5;
 
     state.invA = Math.random() < 0.5;
     state.invB = Math.random() < 0.5;
     state.carryIn = Math.random() < 0.5;
     state.floodCarry = Math.random() < 0.5;
+    state.useOr = Math.random() < 0.5;
 
     state.writeAk = Math.random() < 0.5;
     state.shAk = Math.random() < 0.5;
@@ -67,7 +70,6 @@ function randomState() {
     state.resetAk = Math.random() < 0.5;
     state.oneMQ0 = Math.random() < 0.5;
     state.resetSC = Math.random() < 0.5;
-    state.carryOut = Math.random() < 0.5;
 }
 
 randomState();
