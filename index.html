@@ -25,9 +25,9 @@
                 <label for="program">
                     Program:
                     <select id="program">
-                        <option value="/docs/AddInt.json" selected>Addition</option>
-                        <option value="/docs/SubInt.json">Subtraction</option>
-                        <option value="/docs/MultiplyInt.json">Multiplication</option>
+                        <option value="/animation-alu/AddInt.json" selected>Addition</option>
+                        <option value="/animation-alu/SubInt.json">Subtraction</option>
+                        <option value="/animation-alu/MultiplyInt.json">Multiplication</option>
                         <option value="custom">Custom</option>
                     </select>
                     <input type="file" id="program-upload" style="display: none;" accept=".json">
@@ -39,7 +39,7 @@
                     <svg aria-hidden="true" focusable="false" class="octicon octicon-mark-github" viewBox="0 0 24 24" width="2ch" height="1em" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path></svg>
                     <span>Github Repo</span>
                 </a>
-                <a href="/docs/program.schema.json" download="program.schema.json">
+                <a href="/animation-alu/program.schema.json" download="program.schema.json">
                     <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="2ch" height="1em" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><!--Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 306.7L246.6 265.3C234.1 252.8 213.8 252.8 201.3 265.3C188.8 277.8 188.8 298.1 201.3 310.6L297.3 406.6C309.8 419.1 330.1 419.1 342.6 406.6L438.6 310.6C451.1 298.1 451.1 277.8 438.6 265.3C426.1 252.8 405.8 252.8 393.3 265.3L352 306.7L352 96zM160 384C124.7 384 96 412.7 96 448L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 448C544 412.7 515.3 384 480 384L433.1 384L376.5 440.6C345.3 471.8 294.6 471.8 263.4 440.6L206.9 384L160 384zM464 440C477.3 440 488 450.7 488 464C488 477.3 477.3 488 464 488C450.7 488 440 477.3 440 464C440 450.7 450.7 440 464 440z"/></svg>
                     <span>Program Schema</span>
                 </a>
@@ -210,7 +210,7 @@
                 <p>All signals are optional and default to <code>false</code> / <code>off</code>.</p>
                 <h3>Custom Programs</h3>
                 <p>
-                    To create a custom Program, <a href="/docs/program.schema.json" download="program.schema.json">download the schema</a> and create a new <code>.json</code>-file.<br>
+                    To create a custom Program, <a href="/animation-alu/program.schema.json" download="program.schema.json">download the schema</a> and create a new <code>.json</code>-file.<br>
                     Include <code>"$schema": "&lt;path/to&gt;/program.schema.json"</code> to make your editor guide you and validate the schema.<br>
                     Give you program a name using the <code>name</code> property.<br>
                     Specify what circuit you program is for using the <code>unit</code> property.<br>
@@ -248,7 +248,7 @@
                     Numbers are entered in decimal and the program needs to be instructed to read it.
                     The read-only Output-Field shows the value of the Akkumulator once the program halts in decimal.
                 </p>
-                <p>Additionally there are links to the <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu" target="_blank">Github Repo</a> and a download-link for the <a href="/docs/program.schema.json" download="program.schema.json">json-schema</a>.</p>
+                <p>Additionally there are links to the <a href="https://github.com/FelixBrockwitz-s3005540/animation-alu" target="_blank">Github Repo</a> and a download-link for the <a href="/animation-alu/program.schema.json" download="program.schema.json">json-schema</a>.</p>
             </div>
 
             <menu type="toolbar">
