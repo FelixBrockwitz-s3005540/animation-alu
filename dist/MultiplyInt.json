@@ -1,0 +1,23 @@
+{
+    "$schema": "./program.schema.json",
+    "name": "MultiplyInt",
+    "unit": "int",
+    "instructions": [
+        { "type": "alu", "rsAk": true, "rsMQ": true, "rsSC": true},
+        { "type": "mem", "setInput": "in2", "setShiftCounter": 8 },
+        { "type": "alu", "wrAk": true},
+
+        { "type": "alu", "sh_L": false, "shAk": true, "shMQ": true},
+        { "type": "jmp", "signal": "sc0", "if": false, "line": 3 },
+
+        { "type": "mem", "setInput": "in1", "setShiftCounter": 8 },
+        { "type": "jmp", "signal": "mq0", "if": false, "skip": 1 },
+        { "type": "alu", "wrAk": true},
+        { "type": "alu", "sh_L": false, "shAk": true, "shMQ": true},
+        { "type": "jmp", "signal": "sc0", "if": false, "line": 6 },
+
+        { "type": "mem", "setShiftCounter": 8 },
+        { "type": "alu", "sh_L": true, "shAk": true, "shMQ": true},
+        { "type": "jmp", "signal": "sc0", "if": false, "line": 11}
+    ]
+}
