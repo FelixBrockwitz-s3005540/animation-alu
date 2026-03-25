@@ -1,5 +1,5 @@
 {
-    "$schema": "./program.schema.json",
+    "$schema": "https://felixbrockwitz-s3005540.github.io/animation-alu/program.schema.json",
     "name": "AddInt",
     "unit": "int",
     "instructions": [

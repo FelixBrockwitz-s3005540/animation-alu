@@ -210,8 +210,12 @@
                 <p>All signals are optional and default to <code>false</code> / <code>off</code>.</p>
                 <h3>Custom Programs</h3>
                 <p>
-                    To create a custom Program, <a href="/animation-alu/program.schema.json" download="program.schema.json">download the schema</a> and create a new <code>.json</code>-file.<br>
-                    Include <code>"$schema": "&lt;path/to&gt;/program.schema.json"</code> to make your editor guide you and validate the schema.<br>
+                    To create a custom Program, create a new <code>.json</code>-file.<br>
+                    Include <code>"$schema": "https://felixbrockwitz-s3005540.github.io/animation-alu/program.schema.json"</code>
+                    or <a href="/animation-alu/program.schema.json" download="program.schema.json">download the schema</a>
+                    and include <code>"$schema": "&lt;path/to&gt;/program.schema.json"</code>
+                    to make your editor guide you and validate the schema.
+                    You might have to configure the domain as trusted in vs-code.<br>
                     Give you program a name using the <code>name</code> property.<br>
                     Specify what circuit you program is for using the <code>unit</code> property.<br>
                     Put your instructions into the <code>instructions</code> array. Each instruction is an object that specifies the the instruction-type in the <code>type</code>-property and it's options.
