@@ -1,4 +1,4 @@
-import svg from "./assets/layout.plain.svg?raw";
+import svgUrl from "./assets/layout.plain.svg?url";
 import * as e from "./elements";
 import state from "./state";
 import { bitString, toBits } from "./utils";
@@ -249,6 +249,8 @@ export function render() {
 }
 
 export async function init() {
+    const response = await fetch(svgUrl);
+    const svg = await response.text();
     document.getElementById("svg-target")!.innerHTML = svg;
     e.loadElementsInt();
 

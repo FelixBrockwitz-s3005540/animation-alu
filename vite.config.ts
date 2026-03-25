@@ -2,6 +2,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
     build: {
+        outDir: "docs",
         minify: false,
         sourcemap: true,
         rolldownOptions: {
@@ -12,5 +13,5 @@ export default defineConfig({
             },
         }
     },
-    base: "/dist/"
+    base: "/docs/"
 });
